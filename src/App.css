@@ -540,8 +540,11 @@ body {
 }
 @media only screen and (max-width: 1024px) {
   
+  .width-15 {
+    margin-top: 50px;
+  }
   .width-15 .home-image {
-    width: 110%;
+    width: 100%;
     position: relative;
   }
   .storySection .storyDiv {
