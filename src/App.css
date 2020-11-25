@@ -569,7 +569,7 @@ body {
 @media only screen and (max-width: 1024px) {
   
   .width-15 {
-    margin-top: 10px;
+    margin-top: 70px;
   }
   .width-15 .home-image {
     width: 100%;
@@ -582,14 +582,16 @@ body {
   }
   .storySection .storyDiv .width-25 img {
     width: 80% !important;
+    margin-top: 15px;
+    margin-bottom: 15px;
   }
   .storyContentDiv {
     position: absolute;
     background: #e1e0d8;
     margin-left: 7.5%;
-    width: 81%;
-    margin-top: 7.8%;
-    height: 61.7%;
+    width: 80.5%;
+    margin-top: 9.5%;
+    height: 61.5%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -642,16 +644,16 @@ body {
   .storyContentDiv {
     position: absolute;
     background: #e1e0d8;
-    margin-left: 7.8%;
-    width: 80%;
-    margin-top: 8%;
-    height: 61.7%;
+    margin-left: 7.7%;
+    width: 80.5%;
+    margin-top: 9.8%;
+    height: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
   }
   .width-15 .home-image {
-    width: 120%;
+    width: 100%;
     position: relative;
   }
   .storySection .storyDiv {
@@ -660,6 +662,11 @@ body {
   .footer-mobile {
     display: block;
     margin-top: 36px;
+  }
+  .storySection .storyDiv .width-25 img {
+    width: 80% !important;
+    margin-top: 15px;
+    margin-bottom: 15px;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -714,7 +721,7 @@ body {
   .storySection .storyDiv, .infoSection .infoDiv {
     display: flex;
     width: 600px !important;
-    left: 0px;
+    left: 10px;
   }
   .infoDiv .width-25 {
     width: 25% !important;
@@ -771,6 +778,22 @@ body {
   .footer-mobile {
     display: block;
     margin-top: -7px;
+  }
+  .storySection .storyDiv .width-25 img {
+    width: 80% !important;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .storyContentDiv {
+    position: absolute;
+    background: #e1e0d8;
+    margin-left: 7.6%;
+    width: 80.5%;
+    margin-top: 9%;
+    height: 62%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -853,6 +876,13 @@ body {
   }
   .footer-mobile {
     margin-top: 52px;
+  }
+  .storySection .storyDiv, .infoSection .infoDiv {
+    left: 0px;
+  }
+  .storySection .storyDiv .width-25 img {
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
 }
 
