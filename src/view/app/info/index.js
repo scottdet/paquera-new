@@ -27,11 +27,9 @@ class Info extends Component {
                         <div className="infoContentDiv">
                             <p>
                                 Produced by a CO-OP in San Miguel Ejutla, Paquera is an award-winning mezcal that was created from a methodology perfected over generations of dedicated family artisans. Our love for Mezcal has only deepened upon being exposed to its unique production process and rich culture.<br/><br/>
-                                - Certified Artisanal Mezcal<br/>
-                                - Gluten Free<br/>
-                                - No Additives<br/>
-                                - 100% Sustainable<br/>
-                                - CO-OP Grown & Produced<br/>
+                                Certified Artisanal Mezcal / Gluten Free <br/>
+                                No Additives / 100% Sustainable <br/>
+                                CO-OP Grown & Produced<br/><br/>
                                 Available in 3 different expressions: 100% Espadin, 80% Espadin/20% Barril & 100% Barril.<br/><br/>
                                 750ml and 200ml bottles available in each expression. <br/><br/>
                                 Serve neat in a copita or made in cocktail form, Paquera doesn't overwhelm you with smoke but eases you into its smoothness. It can be regarded as “the most approachable premium mezcal in the market”. Balanced and full from the start and finishes buttery. It's to be enjoyed in social settings, either celebratory or with the people you love. <br/><br/>
