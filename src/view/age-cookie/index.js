@@ -28,10 +28,10 @@ class AgeAllowance extends Component {
                     <div className="flex-space-end-between width-70">
                         <img className="full-image-min-200 mt-20" src="/img/PaqueraMezcal_Entry_Ornament7.png" />
                         <section className="cookie-dialog-section">
-                            <img className="width-50" src="/img/PaqueraMezcal_Story_TopLeft3.png" />
-                            <img className="width-50" src="/img/PaqueraMezcal_Story_TopRight3.png" />
-                            <img className="width-50" src="/img/PaqueraMezcal_Story_BottomLeft3.png" />
-                            <img className="width-50" src="/img/PaqueraMezcal_Story_BottomRight3.png" />
+                            <img className="width-50 top-left" src="/img/PaqueraMezcal_Story_TopLeft3.png" />
+                            <img className="width-50 top-right" src="/img/PaqueraMezcal_Story_TopRight3.png" />
+                            <img className="width-50 bottom-left" src="/img/PaqueraMezcal_Story_BottomLeft3.png" />
+                            <img className="width-50 bottom-right" src="/img/PaqueraMezcal_Story_BottomRight3.png" />
                             <div className="cookie-alert-div">
                                 <div className="title">
                                     <h1>ARE YOU 21+</h1>
