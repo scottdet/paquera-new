@@ -1,6 +1,6 @@
 import React, { Component, Suspense } from 'react'
 import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom'
-import { cookies } from './cookie' 
+import { cookies } from './cookie'
 import 'semantic-ui-css/semantic.min.css'
 import './App.css';
 
@@ -14,8 +14,8 @@ class App extends Component {
   render() {
     const cookie = cookies.get('verification');
     console.log(cookie);
-    if (cookie === 'yes' ) {
-      return(
+    if (cookie === 'yes') {
+      return (
         <div>
           <Router>
             <Switch>
