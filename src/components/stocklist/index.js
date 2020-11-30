@@ -7,14 +7,15 @@ class StockListComponent extends Component {
     componentDidMount() {
         var me = document.querySelector('script[src="https://stockist.co/embed/v1/widget.min.js"]');
         if (me != null) {
-            window.location.href="/stocklist"
+            window.location.href = "/stocklist"
         }
-        (function(s,t,o,c,k){c=s.createElement(t);c.src=o;c.async=1;
-        k=s.getElementsByTagName(t)[0];k.parentNode.insertBefore(c,k);
-        })(document,'script','https://stockist.co/embed/v1/widget.min.js');
+        (function (s, t, o, c, k) {
+            c = s.createElement(t); c.src = o; c.async = 1;
+            k = s.getElementsByTagName(t)[0]; k.parentNode.insertBefore(c, k);
+        })(document, 'script', 'https://stockist.co/embed/v1/widget.min.js');
     }
     render() {
-        return(
+        return (
             <section>
                 {/* <h2>Find Our Stores</h2> */}
                 <div data-stockist-widget-tag="u7318"></div>
