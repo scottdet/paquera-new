@@ -8,16 +8,16 @@ class AgeAllowance extends Component {
         console.log(this.props);
     }
     handleClick = (res) => {
-        if(res === 'Yes') {
-            cookies.set('verification', 'yes', {path: '/'});
+        if (res === 'Yes') {
+            cookies.set('verification', 'yes', { path: '/' });
             window.location.href = "/";
         } else {
-            cookies.set('verification', 'no', { path: '/'});
+            cookies.set('verification', 'no', { path: '/' });
             window.location.href = "https://google.com";
         }
     }
     render() {
-        return(
+        return (
             <Container className="full-size m-0 fade-in">
                 <section className="flex-display">
                     <div className="flex-space-end-between width-15">
@@ -41,7 +41,7 @@ class AgeAllowance extends Component {
                                     <button onClick={() => this.handleClick('Yes')}>YES</button>
                                     <button onClick={() => this.handleClick('No')}>NO</button>
                                 </div>
-                                <p>you must be of legal drinking age to enter this site. By entering you accept our terms and conditions and our privacy and cookie policy.<br/>We encourage drinking responsibly.</p>
+                                <p>you must be of legal drinking age to enter this site. By entering you accept our terms and conditions and our privacy and cookie policy.<br />We encourage drinking responsibly.</p>
                             </div>
                         </section>
                         <img className="full-image-min-200 mb-20" src="/img/PaqueraMezcal_Entry_Ornament8.png" />
