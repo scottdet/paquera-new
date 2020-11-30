@@ -12,7 +12,7 @@ class StockList extends Component {
         ReactGA.pageview('/stocklist');
     }
     render() {
-        return(
+        return (
             <Container className="stock-content pl-20 pr-20 fade-in">
                 <section className="stockSection">
                     <StockListComponent />

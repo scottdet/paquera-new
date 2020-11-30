@@ -10,7 +10,7 @@ import StockList from './stocklist'
 import FooterComponent from '../../components/footer'
 
 const Main = () => {
-    return(
+    return (
         <section className="full-content m-0">
             <HeaderComponent />
             <Switch>
