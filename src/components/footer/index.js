@@ -7,7 +7,7 @@ class FooterComponent extends Component {
         super(props);
     }
     render() {
-        return(
+        return (
             <section>
                 <section className="footer-desktop">
                     <div className="subscribe">
@@ -16,7 +16,7 @@ class FooterComponent extends Component {
                         <p>Subscribe to receive updates, access to exclusive deals, and more.</p>
                     </div>
                     <div className="right-footer f-right">
-                        <div className="social-icons">                    
+                        <div className="social-icons">
                             <Icon name="twitter" size="huge" />
                             <Icon name="facebook f" size="huge" />
                             <Icon name="instagram" size="huge" />
@@ -30,7 +30,7 @@ class FooterComponent extends Component {
                         <button>SUBMIT</button>
                     </div>
                     <p>Subscribe to receive updates, access to exclusive deals, and more.</p>
-                    <div className="social-icons">                    
+                    <div className="social-icons">
                         <Icon name="twitter" size="huge" />
                         <Icon name="facebook f" size="huge" />
                         <Icon name="instagram" size="huge" />
