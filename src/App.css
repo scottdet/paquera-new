@@ -24,7 +24,7 @@ body {
   border: 0px solid #3b49ae !important;
 }
 .home-screen-background {
-  background: url('./assets/img/PAQUERAdesktop.jpg');
+  background: url('./assets/img/PAQUERA_20_edits.jpeg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -225,6 +225,8 @@ body {
   padding-right: 20px !important;
 }
 .footer-desktop {
+  display: flex;
+  justify-content: space-between;
   position: sticky !important;
   height: 80px;
   background: #3b49ae;
@@ -706,7 +708,7 @@ body {
 @media only screen and (max-width: 767px) {
   .home-screen-background {
     margin-top: -150px !important;
-    background-image: url('./assets/img/PAQUERAmobile.jpg');
+    background-image: url('./assets/img/PAQUERA_20_edits.jpeg');
     background-position: center;
     /* background-size: 200% 100%; */
     min-height: calc(100vh - 190px);
@@ -851,7 +853,7 @@ body {
     min-height: calc(100vh - 339px) !important;
   }
   .home-screen-background {
-    background-image: url('./assets/img/PAQUERAmobile.jpg');
+    background-image: url('./assets/img/PAQUERA_20_edits.jpeg');
     background-position: center !important;
     /* background-size: 250% 100%; */
     min-height: calc(100vh - 160px);
@@ -954,7 +956,7 @@ body {
 @media only screen and (max-width: 450px) {
   
   .home-screen-background {
-    background-image: url('./assets/img/PAQUERAmobile.jpg');
+    background-image: url('./assets/img/PAQUERA_20_edits.jpeg');
     background-position: center !important;
     /* background-size: 250% 100%; */
     min-height: calc(100vh - 175px);
@@ -1172,4 +1174,12 @@ body {
     display: flex;
     justify-content: center;
     margin-top: 30px !important;
+}
+
+.shopify-buy-frame--product {
+  max-width: 180px !important;
+  height: 80px !important;
+}
+.shopify-buy__btn {
+  background: black !important;
 }
