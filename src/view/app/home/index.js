@@ -12,17 +12,10 @@ class Home extends Component {
     }
     render() {
         return (
-            <Container className="content pl-20 pr-20 fade-in">
-                <div className="width-15">
-                    <img className="home-image" src="/img/PaqueraMezcal_Landing_LeftArt.png" />
+            <div className="content pl-20 pr-20 fade-in">
+                <div className="width-100 home-screen-background">
                 </div>
-                <div className="width-70">
-                    <img className="home-image" src="/img/PaqueraMezcal_Landing_CenterArt.png" />
-                </div>
-                <div className="width-15">
-                    <img className="home-image" src="/img/PaqueraMezcal_Landing_RightArt.png" />
-                </div>
-            </Container>
+            </div>
         )
     }
 }

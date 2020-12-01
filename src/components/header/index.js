@@ -28,9 +28,12 @@ class HeaderComponent extends Component {
                 <NavLink to={"/stocklist"} className={this.state.menuActive === 'stocklist' ? 'active' : ''}>
                     <abbr onClick={() => this.handleClick('stocklist')}>Stocklist</abbr>
                 </NavLink>
-                <NavLink to={"/store"} className={this.state.menuActive === 'store' ? 'active' : ''}>
+                <a href="https://www.mypaquera.com">
+                    <abbr>Store</abbr>
+                </a>
+                {/* <NavLink to={"/store"} className={this.state.menuActive === 'store' ? 'active' : ''}>
                     <abbr onClick={() => this.handleClick('store')}>Store</abbr>
-                </NavLink>
+                </NavLink> */}
             </section>
         )
     }

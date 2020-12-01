@@ -12,7 +12,7 @@ class Info extends Component {
     }
     render() {
         return (
-            <Container className="content pl-20 pr-20 fade-in">
+            <Container className="content pl-20 pr-20 mb-30 fade-in">
                 <section className="infoSection">
                     <div className="infoDiv">
                         <div className="width-25">

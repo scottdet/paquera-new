@@ -23,6 +23,14 @@ body {
 .none-border {
   border: 0px solid #3b49ae !important;
 }
+.home-screen-background {
+  background: url('./assets/img/PAQUERAdesktop.jpg');
+  background-size: 100% 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+  min-height: calc(100vh - 30px);
+  margin-top: -200px;
+}
 .flex-display {
   position: relative;
   width: 100%;
@@ -291,10 +299,9 @@ body {
   display: flex !important;
   justify-content: center;
   align-items: center;
-  padding-top: 30px;
-  min-height: calc(100vh - 150px) !important;
-  margin-bottom: 20px;
-  margin-top: -100px;
+  padding: 0px !important;
+  min-height: calc(100vh - 260px) !important;
+  margin-top: 0px;
   z-index: -1;
 }
 .stock-content {
@@ -369,6 +376,10 @@ body {
   color: #3b49ae;
 }
 @media only screen and (max-width: 1320px) {
+  .home-screen-background {
+    margin-top: -150px !important;
+    min-height: calc(100vh - 213px);
+  }
   .cookie-alert-div .title h1 {
     font-size: 27px;
   }
@@ -388,15 +399,15 @@ body {
     position: relative;
   }
   .content {
-    margin-top: -50px;
-    min-height: calc(100vh - 350px) !important;
+    margin-top: 0px;
+    min-height: calc(100vh - 393px) !important;
   }
   .footer-desktop {
     display: none;
   }
   .footer-mobile {
     display: block;
-    margin-top: 36px;
+    margin-top: 0px;
   }
   .footer-mobile {
     position: sticky !important;
@@ -568,6 +579,9 @@ body {
 }
 @media only screen and (max-width: 1024px) {
   
+  .home-screen-background {
+    background-size: 150% 100%;
+  }
   .width-15 {
     margin-top: 70px;
   }
@@ -622,6 +636,11 @@ body {
   }
 }
 @media only screen and (max-width: 900px) {
+  .home-screen-background {
+    margin-top: -150px !important;    
+    background-size: 180% 100%;
+    min-height: calc(100vh - 213px);
+  }
   .stockSection {
     width: 100%;
     margin-bottom: 0px;
@@ -661,7 +680,7 @@ body {
   }
   .footer-mobile {
     display: block;
-    margin-top: 36px;
+    margin-top: 0px;
   }
   .storySection .storyDiv .width-25 img {
     width: 80% !important;
@@ -670,6 +689,13 @@ body {
   }
 }
 @media only screen and (max-width: 767px) {
+  .home-screen-background {
+    margin-top: -150px !important;
+    background-image: url('./assets/img/PAQUERAmobile.jpg');
+    background-position: center;
+    background-size: 200% 100%;
+    min-height: calc(100vh - 190px);
+  }
   .stockSection {
     width: 100%;
     margin-bottom: 0px;
@@ -700,7 +726,7 @@ body {
     margin-bottom: 0px !important;
   }
   .content {
-    min-height: calc(100vh - 310px) !important;
+    min-height: calc(100vh - 370px) !important;
   }
   .width-15 {
     width: 10% !important;
@@ -797,6 +823,16 @@ body {
   }
 }
 @media only screen and (max-width: 600px) {
+  
+  .content {
+    min-height: calc(100vh - 339px) !important;
+  }
+  .home-screen-background {
+    background-image: url('./assets/img/PAQUERAmobile.jpg');
+    background-position: center !important;
+    background-size: 250% 100%;
+    min-height: calc(100vh - 160px);
+  }
   .stock-content {
     margin-top: -20px;
   }
@@ -875,7 +911,7 @@ body {
     color: #3b49ae;
   }
   .footer-mobile {
-    margin-top: 52px;
+    margin-top: 0px;
   }
   .storySection .storyDiv, .infoSection .infoDiv {
     left: 0px;
@@ -887,8 +923,15 @@ body {
 }
 
 @media only screen and (max-width: 450px) {
+  
+  .home-screen-background {
+    background-image: url('./assets/img/PAQUERAmobile.jpg');
+    background-position: top !important;
+    background-size: 250% 100%;
+    min-height: calc(100vh - 175px);
+  }
   .footer-mobile {
-    margin-top: 36px;
+    margin-top: 0px;
   }
 }
 @media only screen and (max-width: 400px) {
@@ -925,7 +968,7 @@ body {
     min-width: 220px;
   }
   .footer-mobile {
-    margin-top: 36px;
+    margin-top: 0px;
   }
 }
 .f-bold {
@@ -992,4 +1035,110 @@ body {
 }
 .f-jeff {
   font-family: 'Jeff';
+}
+.mb-30 {
+  margin-bottom: 30px !important;
+}
+
+
+/* Age Cookie*/
+.age-text {
+  word-spacing: 5px !important;
+  padding-bottom: 15px;
+  font-size: 32px !important;
+  font-family: 'Jeff';
+  padding-top: 15px !important;
+}
+
+.age-text2 {
+  font-size: 16px !important;
+  word-spacing: 0px !important;
+  padding: 35px !important;
+  padding-top: 35px !important;
+  font-family: 'HiH';
+}
+
+.age-button {
+  background: white !important;
+  border: 3px solid black !important;
+  border-radius: 5px !important;
+  padding: 15px 30px !important;
+  color: black !important;
+  font-family: 'Jeff' !important;
+  margin-left: 30px !important;
+  margin-right: 30px !important;
+  font-size: 20px !important;
+}
+
+@media (max-width: 599px) {
+  .age-text {
+    font-size: 27px !important;
+  }
+  .age-button {
+    font-size: 16px !important;
+    padding-top: 5px 10px !important;
+    border: 2px solid black !important;
+    margin-left: 15px !important;
+    margin-right: 15px !important;
+  }
+  .age-text2 {
+      padding-left: 30px !important;
+      padding-right: 30px !important;
+      font-size: 14px !important;
+  }
+  .age-logo {
+      width: 240px;
+      margin-top: -30px !important;
+      padding-top: 0px !important;
+  }
+}
+
+.age-logo {
+  padding-top: 0px !important;
+  margin-top: -60px !important;
+  padding-bottom: 0px !important;
+  margin-bottom: -30px !important;
+}
+.age-container {
+  background-image: url('./assets/img/PAQUERAdesktop.jpg');
+  position: fixed;
+  background-position: center center;
+  background-size: cover;
+  z-index: 2 !important;
+  width: calc(100vw - 60px);
+  height: calc(100vh - 60px); 
+  margin-left: 30px;
+  margin-top: 30px;
+  overflow: hidden;
+}
+
+.age-inner-container {
+  position: relative;
+  background-color: white;
+  width: 350px !important;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin: auto;
+  margin-top: 25vh !important;
+}
+@media (max-width: 599px) {
+  .age-container {
+    margin: 0px !important;
+    background-image: url('./assets/img/PAQUERAmobile.jpg');
+    width: calc(100vw);
+    height: calc(100vh); 
+  }
+  .age-inner-container {
+      width: 90vw !important;
+  }
+}
+.flex-space-evenly {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.flex-center {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px !important;
 }
