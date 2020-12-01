@@ -14,10 +14,11 @@ class FooterComponent extends Component {
                         <Input type="text" placeholder="EMAIL ADDRESS" />
                         <button>SUBMIT</button>
                         <p>Subscribe to receive updates, access to exclusive deals, and more.</p>
+                        {/* <div id='product-component-1605295802728'></div> */}
                     </div>
                     <div className="right-footer f-right">
                         <div className="social-icons">
-                            <Icon name="twitter" size="huge" />
+                            {/* <Icon name="twitter" size="huge" /> */}
                             <Icon name="facebook f" size="huge" />
                             <Icon name="instagram" size="huge" />
                         </div>
@@ -31,7 +32,7 @@ class FooterComponent extends Component {
                     </div>
                     <p>Subscribe to receive updates, access to exclusive deals, and more.</p>
                     <div className="social-icons">
-                        <Icon name="twitter" size="huge" />
+                        {/* <Icon name="twitter" size="huge" /> */}
                         <Icon name="facebook f" size="huge" />
                         <Icon name="instagram" size="huge" />
                     </div>
