@@ -325,9 +325,7 @@ body {
 .width-15 .home-image {
   max-width: 180px;
   width: 100%;
-  top: -100px;
   position: relative;
-  margin-bottom: -100px;
 }
 .right-footer {
   display: flex;
@@ -375,6 +373,17 @@ body {
   font-size: 24px;
   color: #3b49ae;
 }
+
+.infoContent {
+  position: relative;
+  padding: 20px;
+  font-family: 'HiH';
+  font-size: 20px;
+  color: #3b49ae;
+  text-align: center;
+  border: 3px solid #3b49ae;
+  width: 80%;
+}
 @media only screen and (max-width: 1320px) {
   .home-screen-background {
     margin-top: -150px !important;
@@ -395,7 +404,7 @@ body {
     font-size: 12px;
   }
   .width-15 .home-image {
-    width: 110%;
+    width: 100%;
     position: relative;
   }
   .content {
@@ -545,6 +554,12 @@ body {
     padding: 16px;
     font-family: 'HiH';
     font-size: 20px;
+    color: #3b49ae;
+  }
+  .infoContent {
+    padding: 16px;
+    font-family: 'HiH';
+    font-size: 15px;
     color: #3b49ae;
   }
   .infoContentDiv p {
@@ -719,7 +734,7 @@ body {
     position: relative;
     width: 90%;
     max-width: 500px;
-    min-width: 200px;
+    min-width: 300px;
     top: -20px;
   }
   .flex-space-end-between .mb-20 {
@@ -729,11 +744,12 @@ body {
     min-height: calc(100vh - 370px) !important;
   }
   .width-15 {
-    width: 10% !important;
+    width: 15% !important;
   }
   .width-70 {
-    width: 80% !important;
+    width: 70% !important;
   }
+  
   .header a {
     font-family: HiH;
     font-size: 18px;
@@ -770,6 +786,13 @@ body {
   }
   .storyContentDiv, .infoContentDiv {
     border: 3px solid #3b49ae;
+  }
+  .infoContent {
+    padding: 15px;
+    font-family: 'HiH';
+    font-size: 13px;
+    color: #3b49ae;
+    width: 90%;
   }
   .storyContentDiv p, .infoContentDiv p {
     padding: 15px;
@@ -903,6 +926,12 @@ body {
     height: 87.5%;
     border: 3px solid #3b49ae;
     text-align: left !important;
+  }
+  .infoContent {
+    padding: 10px;
+    font-family: 'HiH';
+    font-size: 11px;
+    color: #3b49ae;
   }
   .storyContentDiv p, .infoContentDiv p {
     padding: 10px;
