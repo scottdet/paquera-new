@@ -10,8 +10,9 @@ class HeaderComponent extends Component {
     }
     componentDidMount() {
         var url = (window.location.href).split(/[/]/);
+        console.log(url);
         var headerItems = document.getElementsByClassName("header")[0].getElementsByTagName("a");
-        if(url[3] === 'home') {
+        if(url[3] === 'home' || url[3] === '') {
             for (var i = 0; i < headerItems.length; i++) {
                 headerItems[i].style.color = "#e1e0d8";
             }
