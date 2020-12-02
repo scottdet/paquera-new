@@ -966,19 +966,22 @@ body {
 @media only screen and (max-width: 450px) {
   
   .full-content {
-    min-height: calc(100vh - env(safe-area-inset-bottom)) !important;
+    --safe-area-inset-bottom: env(safe-area-inset-bottom);
+    min-height: calc(100vh - var(--safe-area-inset-bottom)) !important;
   }
   .header {
     margin-left: 0px !important;
   }
   .home-screen-background {
+    --safe-area-inset-bottom: env(safe-area-inset-bottom);
     background-image: url('./assets/img/image0.jpg');
     background-position: center !important;
     /* background-size: 250% 100%; */
-    min-height: calc(100vh - env(safe-area-inset-bottom));
+    min-height: calc(100vh - var(--safe-area-inset-bottom));
   }
   .content {
-    min-height: calc(100vh - 192px - env(safe-area-inset-bottom)) !important;
+    --safe-area-inset-bottom: env(safe-area-inset-bottom);
+    min-height: calc(100vh - 192px - var(--safe-area-inset-bottom)) !important;
   }
   .footer-mobile {
     margin-top: 0px;
