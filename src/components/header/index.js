@@ -37,7 +37,7 @@ class HeaderComponent extends Component {
     }
     render() {
         return (
-            <section className="header">
+            <section className="header" style={{marginLeft: '15px'}}>
                 <NavLink to={"/info"} className={this.state.menuActive === 'info' ? 'active' : ''}>
                     <abbr onClick={() => this.handleClick('info')}>Info</abbr>
                 </NavLink>

@@ -18,38 +18,29 @@ class FooterComponent extends Component {
                         </p> */}
                         {/* <div id='product-component-1605295802728'></div> */}
                     </div>
-                    <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', height: '80px'}}>
+                    <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', height: '65px'}}>
                       <a href="https://www.thewhiskeydealer.com/collections/paquera-mezcal"><button style={{cursor: 'pointer', paddingLeft: '30px', paddingRight: '30px'}}>Buy Now</button></a>
                     </div>
                     <div className="right-footer f-right">
                         <div className="social-icons">
                             {/* <Icon name="twitter" size="huge" /> */}
-                            <Icon name="facebook f" size="huge" />
-                            <Icon name="instagram" size="huge" />
+                            <a style={{color: '#e1e0d8'}} href="https://www.facebook.com/paqueramezcal"><Icon name="facebook f" size="huge" /></a>
+                            <a style={{color: '#e1e0d8'}} href="https://www.instagram.com/paqueramezcal/"><Icon name="instagram" size="huge" /></a>
                         </div>
                         <h3>© PAQUERA MEZCAL 2020</h3>
                     </div>
                 </section>
                 <section className="footer-mobile">
-                    <div className="subscribe">
-                        <Input type="text" placeholder="EMAIL ADDRESS" />
-                        <button>SUBMIT</button>
-                    </div>
                     {/* <div style={{display: 'inherit'}}>
                         <div id='product-component-1605295731111'></div>
                         <div id='product-component-1605295802728'></div>
                         <div id='product-component-1605295847555'></div>
                     </div> */}
-                    <p>
-                      <a href="https://www.thewhiskeydealer.com/collections/paquera-mezcal"><button style={{cursor: 'pointer', paddingLeft: '30px', paddingRight: '30px'}}>Buy Now</button></a>
-                    </p>
-                    <div className="social-icons">
+                    <div className="social-icons" style={{paddingTop: '15px'}}>
+                        <a href="https://www.thewhiskeydealer.com/collections/paquera-mezcal"><button style={{cursor: 'pointer', paddingLeft: '30px', paddingRight: '30px', marginRight: '50px'}}>Buy Now</button></a>
                         {/* <Icon name="twitter" size="huge" /> */}
-                        <Icon name="facebook f" size="huge" />
-                        <Icon name="instagram" size="huge" />
-                    </div>
-                    <div>
-                        <h3>© PAQUERA MEZCAL 2020</h3>
+                        <a style={{color: '#e1e0d8'}} href="https://www.facebook.com/paqueramezcal"><Icon name="facebook f" size="huge" /></a>
+                        <a style={{color: '#e1e0d8'}} href="https://www.instagram.com/paqueramezcal/"><Icon name="instagram" size="huge" /></a>
                     </div>
                 </section>
             </section>
