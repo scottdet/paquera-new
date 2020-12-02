@@ -216,6 +216,11 @@ body {
   padding-right: 20px;
   color: #e1e0d8;
   z-index: 100;
+  transition: 0.2s ease-in;
+}
+.header a:hover {
+  color: #dc9541 !important;
+  transition: 0.2s ease-in;
 }
 .header .active {
   color: #dc9541 !important;
@@ -270,7 +275,12 @@ body {
   font-weight: lighter;
   border: none;
   letter-spacing: 2px;
-  color: #3b49ae;
+  color: #3b49ae !important;
+  transition: 0.2s ease-in;
+}
+.footer-desktop a button:hover {
+  color: #dc9541 !important;
+  transition: 0.2s ease-in;
 }
 .footer-desktop p {
   width: 300px;
@@ -349,6 +359,14 @@ body {
   justify-content: center;
   margin-top: 0px;
   margin-right: 20px;
+}
+.social-icons .social-icon {
+  color: #e1e0d8;
+  transition: 0.2s ease-in;
+}
+.social-icons .social-icon:hover {
+  color: #dc9541 !important;
+  transition: 0.2s ease-in;
 }
 .social-icons i {
   border: 3px solid;
@@ -478,6 +496,11 @@ body {
     letter-spacing: 2px;
     color: #3b49ae;
     z-index: 2;
+    transition: 0.2s ease-in;
+  }
+  .footer-mobile button:hover {
+    color: #dc9541 !important;
+    transition: 0.2s ease-in;
   }
   .footer-mobile p {
     font-family: 'HiH';
@@ -606,10 +629,6 @@ body {
   }
 }
 @media only screen and (max-width: 1024px) {
-  
-  .home-screen-background {
-    /* background-size: 150% 100%; */
-  }
   .width-15 {
     margin-top: 70px;
     margin-bottom: 70px;
@@ -667,7 +686,6 @@ body {
 @media only screen and (max-width: 900px) {
   .home-screen-background {
     margin-top: -150px !important;    
-    /* background-size: 180% 100%; */
     min-height: calc(100vh - 37px);
   }
   .stockSection {
@@ -722,7 +740,6 @@ body {
     margin-top: -150px !important;
     background-image: url('./assets/img/PAQUERA_WebLanding_Desktop.jpg');
     background-position: center;
-    /* background-size: 200% 100%; */
     min-height: calc(100vh - 34px);
   }
   .stockSection {
@@ -824,8 +841,6 @@ body {
     padding-top: 15px;
     padding-bottom: 15px;
     border: 3px solid #3b49ae;
-    /* border-top: 3px solid #3b49ae;
-    border-bottom: 3px solid #3b49ae; */
   }
   .cookie-alert-div {
     height: 85% !important;
@@ -868,7 +883,6 @@ body {
   .home-screen-background {
     background-image: url('./assets/img/image0.jpg');
     background-position: center !important;
-    /* background-size: 250% 100%; */
     min-height: calc(100vh - 2px);
   }
   .stock-content {
@@ -979,7 +993,6 @@ body {
   .home-screen-background {
     background-image: url('./assets/img/image0.jpg');
     background-position: center !important;
-    /* background-size: 250% 100%; */
     min-height: calc(100vh);
   }
   .content {

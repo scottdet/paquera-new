@@ -24,8 +24,8 @@ class FooterComponent extends Component {
                     <div className="right-footer f-right">
                         <div className="social-icons">
                             {/* <Icon name="twitter" size="huge" /> */}
-                            <a style={{color: '#e1e0d8'}} href="https://www.facebook.com/paqueramezcal"><Icon name="facebook f" size="huge" /></a>
-                            <a style={{color: '#e1e0d8'}} href="https://www.instagram.com/paqueramezcal/"><Icon name="instagram" size="huge" /></a>
+                            <a className="social-icon" href="https://www.facebook.com/paqueramezcal"><Icon name="facebook f" size="huge" /></a>
+                            <a className="social-icon" href="https://www.instagram.com/paqueramezcal/"><Icon name="instagram" size="huge" /></a>
                         </div>
                         <h3>© PAQUERA MEZCAL 2020</h3>
                     </div>
@@ -39,8 +39,8 @@ class FooterComponent extends Component {
                     <div className="social-icons" style={{paddingTop: '15px'}}>
                         <a href="https://www.thewhiskeydealer.com/collections/paquera-mezcal"><button style={{cursor: 'pointer', paddingLeft: '30px', paddingRight: '30px', marginRight: '50px'}}>Buy Now</button></a>
                         {/* <Icon name="twitter" size="huge" /> */}
-                        <a style={{color: '#e1e0d8'}} href="https://www.facebook.com/paqueramezcal"><Icon name="facebook f" size="huge" /></a>
-                        <a style={{color: '#e1e0d8'}} href="https://www.instagram.com/paqueramezcal/"><Icon name="instagram" size="huge" /></a>
+                        <a className="social-icon" href="https://www.facebook.com/paqueramezcal"><Icon name="facebook f" size="huge" /></a>
+                        <a className="social-icon" href="https://www.instagram.com/paqueramezcal/"><Icon name="instagram" size="huge" /></a>
                     </div>
                 </section>
             </section>
