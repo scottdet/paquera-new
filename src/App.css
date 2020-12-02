@@ -24,7 +24,7 @@ body {
   border: 0px solid #3b49ae !important;
 }
 .home-screen-background {
-  background: url('./assets/img/PAQUERA_20_edits.jpeg');
+  background: url('./assets/img/PAQUERA_WebLanding_Desktop.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -389,7 +389,7 @@ body {
 @media only screen and (max-width: 1320px) {
   .home-screen-background {
     margin-top: -150px !important;
-    min-height: calc(100vh - 213px);
+    min-height: calc(100vh - 230px);
   }
   .cookie-alert-div .title h1 {
     font-size: 27px;
@@ -411,7 +411,7 @@ body {
   }
   .content {
     margin-top: 0px;
-    min-height: calc(100vh - 393px) !important;
+    min-height: calc(100vh - 410px) !important;
   }
   .footer-desktop {
     display: none;
@@ -460,7 +460,7 @@ body {
     padding: 5px;
     font-size: 18px;
     padding-top: 6px;
-    padding-bottom: 7px;
+    padding-bottom: 6px;
     font-family: 'Jeff';
     font-weight: lighter;
     border: none;
@@ -656,7 +656,7 @@ body {
   .home-screen-background {
     margin-top: -150px !important;    
     /* background-size: 180% 100%; */
-    min-height: calc(100vh - 213px);
+    min-height: calc(100vh - 230px);
   }
   .stockSection {
     width: 100%;
@@ -708,10 +708,10 @@ body {
 @media only screen and (max-width: 767px) {
   .home-screen-background {
     margin-top: -150px !important;
-    background-image: url('./assets/img/PAQUERA_20_edits.jpeg');
+    background-image: url('./assets/img/PAQUERA_WebLanding_Desktop.jpg');
     background-position: center;
     /* background-size: 200% 100%; */
-    min-height: calc(100vh - 190px);
+    min-height: calc(100vh - 206px);
   }
   .stockSection {
     width: 100%;
@@ -743,7 +743,7 @@ body {
     margin-bottom: 0px !important;
   }
   .content {
-    min-height: calc(100vh - 370px) !important;
+    min-height: calc(100vh - 386px) !important;
   }
   .width-15 {
     width: 15% !important;
@@ -850,13 +850,13 @@ body {
 @media only screen and (max-width: 600px) {
   
   .content {
-    min-height: calc(100vh - 339px) !important;
+    min-height: calc(100vh - 353px) !important;
   }
   .home-screen-background {
-    background-image: url('./assets/img/PAQUERA_20_edits.jpeg');
+    background-image: url('./assets/img/PAQUERA_WebLanding_Desktop.jpg');
     background-position: center !important;
     /* background-size: 250% 100%; */
-    min-height: calc(100vh - 160px);
+    min-height: calc(100vh - 174px);
   }
   .stock-content {
     margin-top: -20px;
@@ -956,13 +956,16 @@ body {
 @media only screen and (max-width: 450px) {
   
   .home-screen-background {
-    background-image: url('./assets/img/PAQUERA_20_edits.jpeg');
+    background-image: url('./assets/img/PAQUERA_WebLanding_Desktop.jpg');
     background-position: center !important;
     /* background-size: 250% 100%; */
     min-height: calc(100vh - 175px);
   }
   .footer-mobile {
     margin-top: 0px;
+  }
+  .footer-mobile button {
+    padding-bottom: 7px;
   }
 }
 @media only screen and (max-width: 400px) {
