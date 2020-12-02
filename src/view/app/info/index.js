@@ -16,7 +16,7 @@ class Info extends Component {
                 <div className="width-15" style={{textAlign: 'center', paddingLeft: '10px'}}>
                     <img className="home-image" src="/img/PaqueraMezcal_Landing_LeftArt.png" />
                 </div>
-                <div className="width-70" style={{display: 'flex', justifyContent: 'center', marginTop: '30px'}}>
+                <div className="width-70" style={{display: 'flex', justifyContent: 'center', marginTop: '15px'}}>
                     <p className="infoContent">
                         <abbr className="f-jeff">Produced</abbr> by a CO-OP in San Miguel Ejutla, Paquera is an award-winning mezcal that was created from a methodology perfected over generations of dedicated family artisans. Our love for Mezcal has only deepened upon being exposed to its unique production process and rich culture.<br /><br />
                         <abbr className="f-jeff">Certified Artisanal Mezcal / Gluten Free <br />

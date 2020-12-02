@@ -311,7 +311,7 @@ body {
   display: flex !important;
   justify-content: center;
   padding-top: 0px;
-  min-height: calc(100vh - 210px) !important;
+  min-height: calc(100vh - 175px) !important;
   margin-bottom: 30px;
   margin-top: -50px;
   z-index: -1;
@@ -872,9 +872,9 @@ body {
     padding: 8px;
     font-family: 'Jeff';
     letter-spacing: 1px;
-    font-size: 10px;
+    font-size: 12px;
     cursor: pointer;
-    width: 40px;
+    width: 60px;
   }
   .cookie-alert-div p {
     font-size: 9px;
@@ -932,6 +932,8 @@ body {
   }
   .infoContent {
     padding: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
     font-family: 'HiH';
     font-size: 11px;
     color: #3b49ae;
@@ -986,10 +988,13 @@ body {
     display: flex;
     width: 300px !important;
   }
+  .storyDiv .width-25 {
+    height: 470px;
+  }
   .storyContentDiv {
     margin-left: 10%;
-    width: 80.2%;
-    margin-top: 38.8%;
+    width: 80.5%;
+    margin-top: 40.8%;
     height: 43.5%;
     border: 3px solid #3b49ae;
   }

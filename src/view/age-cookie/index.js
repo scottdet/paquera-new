@@ -61,7 +61,7 @@ class AgeAllowance extends Component {
                                     <button onClick={() => this.handleClick('Yes')}>YES</button>
                                     <button onClick={() => this.handleClick('No')}>NO</button>
                                 </div>
-                                <p>you must be of legal drinking age to enter this site. By entering you accept our terms and conditions and our privacy and cookie policy.<br />We encourage drinking responsibly.</p>
+                                <p>You must be of legal drinking age to enter this site. By entering you accept our terms and conditions and our privacy and cookie policy.<br />We encourage drinking responsibly.</p>
                             </div>
                         </section>
                         <img className="full-image-min-200 mb-20" src="/img/PaqueraMezcal_Entry_Ornament8.png" />
