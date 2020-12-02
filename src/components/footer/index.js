@@ -12,16 +12,14 @@ class FooterComponent extends Component {
                 <section className="footer-desktop">
                     <div className="subscribe">
                         <Input type="text" placeholder="EMAIL ADDRESS" />
-                        <button>SUBMIT</button>
+                        <button style={{cursor: 'pointer'}}>SUBMIT</button>
                         {/* <p>
                             Subscribe to receive updates, access to exclusive deals, and more.
                         </p> */}
                         {/* <div id='product-component-1605295802728'></div> */}
                     </div>
-                    <div style={{display: 'inherit'}}>
-                        <div id='product-component-1605295731111'></div>
-                        <div id='product-component-1605295802728'></div>
-                        <div id='product-component-1605295847555'></div>
+                    <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', height: '80px'}}>
+                      <a href="https://www.thewhiskeydealer.com/collections/paquera-mezcal"><button style={{cursor: 'pointer'}}>Buy Now</button></a>
                     </div>
                     <div className="right-footer f-right">
                         <div className="social-icons">
@@ -42,7 +40,9 @@ class FooterComponent extends Component {
                         <div id='product-component-1605295802728'></div>
                         <div id='product-component-1605295847555'></div>
                     </div> */}
-                    <p>Subscribe to receive updates, access to exclusive deals, and more.</p>
+                    <p>
+                      <a href="https://www.thewhiskeydealer.com/collections/paquera-mezcal"><button style={{cursor: 'pointer'}}>Buy Now</button></a>
+                    </p>
                     <div className="social-icons">
                         {/* <Icon name="twitter" size="huge" /> */}
                         <Icon name="facebook f" size="huge" />
