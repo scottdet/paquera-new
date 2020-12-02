@@ -310,6 +310,7 @@ body {
   position: relative;
   display: flex !important;
   justify-content: center;
+  align-items: center !important;
   padding-top: 0px;
   /* min-height: calc(100vh - 175px) !important; */
   min-height: calc(100vh - 175px) !important;
