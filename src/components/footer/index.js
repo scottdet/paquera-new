@@ -19,7 +19,7 @@ class FooterComponent extends Component {
                         {/* <div id='product-component-1605295802728'></div> */}
                     </div>
                     <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', height: '80px'}}>
-                      <a href="https://www.thewhiskeydealer.com/collections/paquera-mezcal"><button style={{cursor: 'pointer'}}>Buy Now</button></a>
+                      <a href="https://www.thewhiskeydealer.com/collections/paquera-mezcal"><button style={{cursor: 'pointer', paddingLeft: '30px', paddingRight: '30px'}}>Buy Now</button></a>
                     </div>
                     <div className="right-footer f-right">
                         <div className="social-icons">
@@ -41,7 +41,7 @@ class FooterComponent extends Component {
                         <div id='product-component-1605295847555'></div>
                     </div> */}
                     <p>
-                      <a href="https://www.thewhiskeydealer.com/collections/paquera-mezcal"><button style={{cursor: 'pointer'}}>Buy Now</button></a>
+                      <a href="https://www.thewhiskeydealer.com/collections/paquera-mezcal"><button style={{cursor: 'pointer', paddingLeft: '30px', paddingRight: '30px'}}>Buy Now</button></a>
                     </p>
                     <div className="social-icons">
                         {/* <Icon name="twitter" size="huge" /> */}

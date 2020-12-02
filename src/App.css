@@ -217,6 +217,7 @@ body {
 }
 .header img {
   width: 120px;
+  margin-left: 15px;
 }
 .pl-20 {
   padding-left: 20px !important;
@@ -460,7 +461,7 @@ body {
     padding: 5px;
     font-size: 18px;
     padding-top: 6px;
-    padding-bottom: 6px;
+    padding-bottom: 7px;
     font-family: 'Jeff';
     font-weight: lighter;
     border: none;
