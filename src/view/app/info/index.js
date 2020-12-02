@@ -15,6 +15,7 @@ class Info extends Component {
             <Container className="content pl-20 pr-20 mb-30 fade-in">
                 <div className="width-15" style={{textAlign: 'center', paddingLeft: '10px'}}>
                     <img className="home-image" src="/img/PaqueraMezcal_Landing_LeftArt.png" />
+                    <img className="home-image-2" src="/img/Paquera_AgaveTree_Left-01.png" />
                 </div>
                 <div className="width-70" style={{display: 'flex', justifyContent: 'center', marginTop: '15px'}}>
                     <p className="infoContent">
@@ -30,6 +31,7 @@ class Info extends Component {
                 </div>
                 <div className="width-15" style={{textAlign: 'center', paddingRight: '10px'}}>
                     <img className="home-image" src="/img/PaqueraMezcal_Landing_RightArt.png" />
+                    <img className="home-image-2" src="/img/Paquera_AgaveTree_Right-01.png" />
                 </div>
                 {/* <section className="infoSection">
                     <div className="infoDiv">

@@ -326,6 +326,9 @@ body {
   width: 80%;
   max-width: 700px;
 }
+.home-image-2 {
+  display: none;
+}
 .width-15 .home-image {
   max-width: 180px;
   width: 100%;
@@ -968,10 +971,24 @@ body {
     min-height: calc(100vh - 2px);
   }
   .footer-mobile {
-    margin-top: -80px;
+    margin-top: 0px;
   }
   .footer-mobile button {
     padding-bottom: 7px;
+  }
+  .content {
+    min-height: calc(100vh - 312px) !important;
+  }
+  .width-15 {
+    margin-top: 30px;
+  }
+  .home-image {
+    display: none;
+  }
+  .home-image-2 {
+    display: block;
+    text-align: center;
+    width: 90%;
   }
 }
 @media only screen and (max-width: 400px) {
@@ -1011,7 +1028,7 @@ body {
     min-width: 220px;
   }
   .footer-mobile {
-    margin-top: -80px;
+    margin-top: 0px;
   }
 }
 .f-bold {
