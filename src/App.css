@@ -854,6 +854,7 @@ body {
   
   .content {
     min-height: calc(100vh - 192px) !important;
+    max-height: calc(100vh - 192px) !important;
   }
   .home-screen-background {
     background-image: url('./assets/img/image0.jpg');
@@ -967,7 +968,7 @@ body {
     min-height: calc(100vh - 2px);
   }
   .footer-mobile {
-    margin-top: 0px;
+    margin-top: -80px;
   }
   .footer-mobile button {
     padding-bottom: 7px;
@@ -1010,7 +1011,7 @@ body {
     min-width: 220px;
   }
   .footer-mobile {
-    margin-top: 0px;
+    margin-top: -80px;
   }
 }
 .f-bold {
