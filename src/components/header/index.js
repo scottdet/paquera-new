@@ -5,10 +5,33 @@ class HeaderComponent extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            menuActive: '',
+            menuActive: 'home',
+        }
+    }
+    componentDidMount() {
+        var url = (window.location.href).split(/[/]/);
+        var headerItems = document.getElementsByClassName("header")[0].getElementsByTagName("a");
+        if(url[3] === 'home') {
+            for (var i = 0; i < headerItems.length; i++) {
+                headerItems[i].style.color = "#e1e0d8";
+            }
+        } else {
+            for (var i = 0; i < headerItems.length; i++) {
+                headerItems[i].style.color = "#3b49ae";
+            }
         }
     }
     handleClick = (menu) => {
+        var headerItems = document.getElementsByClassName("header")[0].getElementsByTagName("a");
+        if (menu === 'home') {
+            for (var i = 0; i < headerItems.length; i++) {
+                headerItems[i].style.color = "#e1e0d8";
+            }
+        } else {
+            for (var i = 0; i < headerItems.length; i++) {
+                headerItems[i].style.color = "#3b49ae";
+            }
+        }
         this.setState({ menuActive: menu })
     }
     render() {
