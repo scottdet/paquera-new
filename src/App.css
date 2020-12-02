@@ -976,9 +976,6 @@ body {
   .footer-mobile button {
     padding-bottom: 7px;
   }
-  .content {
-    min-height: calc(100vh - 312px) !important;
-  }
   .width-15 {
     margin-top: 30px;
   }
