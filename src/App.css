@@ -249,7 +249,7 @@ body {
   border: 3px solid #e1e0d8 !important;
   border-radius: 0px !important;
   padding: 5px;
-  min-width: 350px;
+  min-width: 300px;
 }
 .footer-desktop .ui.input>input::placeholder {
   color: #e1e0d8;
