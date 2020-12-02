@@ -988,7 +988,7 @@ body {
     width: 90%;
   }
   .content {
-    min-height: calc(100vh - 308px) !important;
+    min-height: calc(100vh - 306px) !important;
   }
 }
 @media only screen and (max-width: 400px) {
@@ -1031,7 +1031,7 @@ body {
     margin-top: 0px;
   }
   .content {
-    min-height: calc(100vh - 308px) !important;
+    min-height: calc(100vh - 306px) !important;
   }
 }
 .f-bold {
