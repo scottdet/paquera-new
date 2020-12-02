@@ -965,7 +965,10 @@ body {
 @media only screen and (max-width: 450px) {
   
   .full-content {
-    min-height: calc(100vh - 100px) !important;
+    min-height: calc(100vh - 110px) !important;
+  }
+  body {
+    /* max-height: calc(100vh - 80px) !important; */
   }
   .home-screen-background {
     background-image: url('./assets/img/image0.jpg');
