@@ -993,6 +993,11 @@ html {
 }
 
 @media only screen and (max-width: 450px) {
+  
+  .full-size {
+    min-height: -webkit-fill-available !important;
+    border: 8px solid #3b49ae !important;
+  }
   .height-webkit-fill-available {
     flex: 1;
     display: flex !important;
