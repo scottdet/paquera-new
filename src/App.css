@@ -995,7 +995,7 @@ html {
 @media only screen and (max-width: 450px) {
   .height-webkit-fill-available {
     flex: 1;
-    display: flex;
+    display: flex !important;
     height: -webkit-fill-available;
     flex-direction: column;
   }
