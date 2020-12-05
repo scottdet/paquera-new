@@ -531,8 +531,6 @@ html {
   .social-icons {
     display: flex;
     justify-content: center;
-    margin-top: 32px;
-    margin-bottom: 8px;
     margin-right: 0px;
   }
   .social-icons i {
