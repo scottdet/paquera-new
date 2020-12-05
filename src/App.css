@@ -993,7 +993,16 @@ html {
 }
 
 @media only screen and (max-width: 450px) {
-  
+  .stock-content {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center !important;
+    padding-top: 0px;
+    min-height: 0px !important;
+    margin-bottom: 30px;
+    z-index: -1;
+  } 
   .full-size {
     min-height: -webkit-fill-available !important;
     border: 8px solid #3b49ae !important;
