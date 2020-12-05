@@ -881,7 +881,6 @@ html {
 @media only screen and (max-width: 600px) {
   
   .content {
-    max-height: calc(100vh - 192px) !important;
   }
   .home-screen-background {
     background-image: url('./assets/img/image0.jpg');
