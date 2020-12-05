@@ -630,7 +630,7 @@ html {
   }
   .cookie-dialog-section .bottom-left {
     position: relative;
-    left: 5.2%;
+    left: 6%;
   }
   .cookie-dialog-section .bottom-right {
     position: relative;
@@ -862,11 +862,11 @@ html {
   }
   .cookie-dialog-section .bottom-left {
     position: relative;
-    top: 24%;
+    top: 55px !important;
   }
   .cookie-dialog-section .bottom-right {
     position: relative;
-    top: 24%;
+    top: 55px !important;
   }
   .footer-mobile {
     display: block;
