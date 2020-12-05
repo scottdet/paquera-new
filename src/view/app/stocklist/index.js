@@ -13,7 +13,7 @@ class StockList extends Component {
     }
     render() {
         return (
-            <Container className="stock-content pl-20 pr-20 fade-in">
+            <Container className="stock-content pl-20 pr-20 fade-in height-webkit-fill-available" style={{flex: 'none'}}>
                 {/* <section className="stockSection">
                     <StockListComponent />
                 </section> */}
