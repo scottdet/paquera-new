@@ -999,6 +999,12 @@ html {
     height: -webkit-fill-available;
     flex-direction: column;
   }
+  .flex-display {
+    position: relative;
+    width: 100%;
+    min-height: -webkit-fill-available;
+    display: flex;
+  }
   .full-content {
     min-height: calc(100vh) !important;
     min-height: 0px !important;

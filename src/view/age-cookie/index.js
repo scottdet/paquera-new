@@ -38,8 +38,8 @@ class AgeAllowance extends Component {
             //         </div>
             //     </Container>
             // </div>
-            <Container className="full-size m-0 fade-in">
-                <section className="flex-display">
+            <Container className="full-size m-0 fade-in height-webkit-fill-available">
+                <section className="flex-display ">
                     <div className="flex-space-end-between width-15">
                         <img className="full-image" src="/img/PaqueraMezcal_Entry_Ornament1.png" />
                         <img className="full-image" src="/img/PaqueraMezcal_Entry_Ornament2.png" />
