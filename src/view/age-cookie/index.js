@@ -57,11 +57,11 @@ class AgeAllowance extends Component {
                                     <h1>ARE YOU 21+</h1>
                                     <h1>YEARS OF AGE?</h1>
                                 </div>
-                                {/* <div className="flex-space-around">
+                                <div className="flex-space-around">
                                     <button onClick={() => this.handleClick('Yes')}>YES</button>
                                     <button onClick={() => this.handleClick('No')}>NO</button>
                                 </div>
-                                <p>You must be of legal drinking age to enter this site. By entering you accept our terms and conditions and our privacy and cookie policy.<br />We encourage drinking responsibly.</p> */}
+                                <p>You must be of legal drinking age to enter this site. By entering you accept our terms and conditions and our privacy and cookie policy.<br />We encourage drinking responsibly.</p>
                             </div>
                         </section>
                         <img className="full-image-min-200 mb-20" src="/img/PaqueraMezcal_Entry_Ornament8.png" />
