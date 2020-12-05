@@ -69,14 +69,17 @@
     main {
       flex: 1;
     }
-    
+    .height-webkit-fill-available {
+      flex: 1;
+      display: flex;
+      height: -webkit-fill-available;
+      flex-direction: column;
+    }
+  
   </style>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <header>HEADER GOES HERE</header>
-    <main>MAIN GOES HERE</main>
-    <footer>FOOTER GOES HERE</footer>
-    <div id="root"></div>
+    <div id="root" class="height-webkit-fill-available"></div>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.

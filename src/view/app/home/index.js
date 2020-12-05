@@ -12,7 +12,7 @@ class Home extends Component {
     }
     render() {
         return (
-            <div className="content pl-20 pr-20 fade-in">
+            <div className="content pl-20 pr-20 fade-in" style={{flex: 1}}>
                 <div className="width-100 home-screen-background">
                 </div>
             </div>

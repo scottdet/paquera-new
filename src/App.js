@@ -16,7 +16,7 @@ class App extends Component {
     console.log(cookie);
     if (cookie === 'yes') {
       return (
-        <div>
+        <div className="height-webkit-fill-available">
           <Router>
             <Switch>
               <Route path="/" component={Main} />

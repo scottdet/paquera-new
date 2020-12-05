@@ -989,7 +989,7 @@ html {
   
   .full-content {
     min-height: calc(100vh) !important;
-    min-height: -webkit-fill-available !important;
+    min-height: 0px !important;
   }
   .header {
     margin-left: 0px !important;
@@ -997,11 +997,11 @@ html {
   .home-screen-background {
     background-image: url('./assets/img/image0.jpg');
     background-position: center !important;
-    min-height: calc(100vh);
+    min-height: -webkit-fill-available !important;
   }
   .content {
     min-height: calc(100vh - 192px) !important;
-    min-height: -webkit-fill-available !important;
+    min-height: 0px !important;
     flex: 1;
   }
   .footer-mobile {
