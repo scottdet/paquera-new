@@ -420,8 +420,8 @@ html {
 }
 
 .height-webkit-fill-available {
-  flex: 1;
-  display: flex;
+  flex: 0;
+  display: block;
   height: -webkit-fill-available;
   flex-direction: column;
 }
