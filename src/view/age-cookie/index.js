@@ -40,37 +40,7 @@ class AgeAllowance extends Component {
             // </div>
             <Container className="full-size m-0 fade-in height-webkit-fill-available">
                 <section className="flex-display" style={{flex: '1'}}>
-                    <div className="flex-space-end-between width-15">
-                        <img className="full-image" src="/img/PaqueraMezcal_Entry_Ornament1.png" />
-                        <img className="full-image" src="/img/PaqueraMezcal_Entry_Ornament2.png" />
-                        <img className="full-image" src="/img/PaqueraMezcal_Entry_Ornament6.png" />
-                    </div>
-                    <div className="flex-space-end-between width-70">
-                        <img className="full-image-min-200 mt-20" src="/img/PaqueraMezcal_Entry_Ornament7.png" />
-                        <section className="cookie-dialog-section">
-                            <img className="width-50 top-left" src="/img/PaqueraMezcal_Story_TopLeft3.png" />
-                            <img className="width-50 top-right" src="/img/PaqueraMezcal_Story_TopRight3.png" />
-                            <img className="width-50 bottom-left" src="/img/PaqueraMezcal_Story_BottomLeft3.png" />
-                            <img className="width-50 bottom-right" src="/img/PaqueraMezcal_Story_BottomRight3.png" />
-                            <div className="cookie-alert-div">
-                                <div className="title">
-                                    <h1>ARE YOU 21+</h1>
-                                    <h1>YEARS OF AGE?</h1>
-                                </div>
-                                <div className="flex-space-around">
-                                    <button onClick={() => this.handleClick('Yes')}>YES</button>
-                                    <button onClick={() => this.handleClick('No')}>NO</button>
-                                </div>
-                                <p>You must be of legal drinking age to enter this site. By entering you accept our terms and conditions and our privacy and cookie policy.<br />We encourage drinking responsibly.</p>
-                            </div>
-                        </section>
-                        <img className="full-image-min-200 mb-20" src="/img/PaqueraMezcal_Entry_Ornament8.png" />
-                    </div>
-                    <div className="flex-space-end-between width-15">
-                        <img className="full-image" src="/img/PaqueraMezcal_Entry_Ornament4.png" />
-                        <img className="full-image" src="/img/PaqueraMezcal_Entry_Ornament3.png" />
-                        <img className="full-image" src="/img/PaqueraMezcal_Entry_Ornament5.png" />
-                    </div>
+                    
                 </section>
             </Container>
         )
