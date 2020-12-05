@@ -53,11 +53,11 @@ class AgeAllowance extends Component {
                             <img className="width-50 bottom-left" src="/img/PaqueraMezcal_Story_BottomLeft3.png" />
                             <img className="width-50 bottom-right" src="/img/PaqueraMezcal_Story_BottomRight3.png" />
                             <div className="cookie-alert-div">
-                                {/* <div className="title">
+                                <div className="title">
                                     <h1>ARE YOU 21+</h1>
                                     <h1>YEARS OF AGE?</h1>
                                 </div>
-                                <div className="flex-space-around">
+                                {/* <div className="flex-space-around">
                                     <button onClick={() => this.handleClick('Yes')}>YES</button>
                                     <button onClick={() => this.handleClick('No')}>NO</button>
                                 </div>
