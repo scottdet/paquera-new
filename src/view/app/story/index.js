@@ -25,7 +25,7 @@ class Story extends Component {
                             <img className="width-100" src="/img/PaqueraMezcal_Story_BottomRight3.png" />
                         </div>
                         <div className="storyContentDiv">
-                            <p><abbr className="f-bold">PAQUERA</abbr> is meant to be appreciated and savored, we recommend sipping paquera slowly as to experience its quality. Created froom a methodology perfected over generations of dedicated family artisans, our love for Mezcal has only deepened upon being exposed to its unique production process and rich culture. <br/><br/> Paquera's mission and purpose is to contribute resources to the Union de Productores Agropecuarios del Distrito de Ejutla de Crespo(UPADEC), which is a coalition of palenques that work together to sustain and grow their micro-enterprises.</p>
+                            <p><abbr className="f-bold">PAQUERA</abbr> is meant to be appreciated and savored, we recommend sipping paquera slowly as to experience its quality. Created from a methodology perfected over generations of dedicated family artisans, our love for Mezcal has only deepened upon being exposed to its unique production process and rich culture. <br/><br/> Paquera's mission and purpose is to contribute resources to the Union de Productores Agropecuarios del Distrito de Ejutla de Crespo(UPADEC), which is a coalition of palenques that work together to sustain and grow their micro-enterprises.</p>
                         </div>
                     </div>
                 </section>
