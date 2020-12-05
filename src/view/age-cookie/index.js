@@ -40,7 +40,20 @@ class AgeAllowance extends Component {
             // </div>
             <Container className="full-size m-0 fade-in height-webkit-fill-available">
                 <section className="flex-display" style={{flex: '1'}}>
-                    
+                    <div className="flex-space-end-between width-15">
+                        <img className="full-image" src="/img/PaqueraMezcal_Entry_Ornament1.png" />
+                        <img className="full-image" src="/img/PaqueraMezcal_Entry_Ornament2.png" />
+                        <img className="full-image" src="/img/PaqueraMezcal_Entry_Ornament6.png" />
+                    </div>
+                    <div className="flex-space-end-between width-70">
+                        <img className="full-image-min-200 mt-20" src="/img/PaqueraMezcal_Entry_Ornament7.png" />
+                        <img className="full-image-min-200 mb-20" src="/img/PaqueraMezcal_Entry_Ornament8.png" />
+                    </div>
+                    <div className="flex-space-end-between width-15">
+                        <img className="full-image" src="/img/PaqueraMezcal_Entry_Ornament4.png" />
+                        <img className="full-image" src="/img/PaqueraMezcal_Entry_Ornament3.png" />
+                        <img className="full-image" src="/img/PaqueraMezcal_Entry_Ornament5.png" />
+                    </div>
                 </section>
             </Container>
         )
