@@ -39,13 +39,13 @@ class AgeAllowance extends Component {
             //     </Container>
             // </div>
             <Container className="full-size m-0 fade-in height-webkit-fill-available">
-                <section className="flex-display ">
-                    <div className="flex-space-end-between width-15">
+                <section className="flex-display" style={{flex: '1'}}>
+                    <div className="flex-space-end-between width-15" style={{flex: '1'}}>
                         <img className="full-image" src="/img/PaqueraMezcal_Entry_Ornament1.png" />
                         <img className="full-image" src="/img/PaqueraMezcal_Entry_Ornament2.png" />
                         <img className="full-image" src="/img/PaqueraMezcal_Entry_Ornament6.png" />
                     </div>
-                    <div className="flex-space-end-between width-70">
+                    <div className="flex-space-end-between width-70" style={{flex: '1'}}>
                         <img className="full-image-min-200 mt-20" src="/img/PaqueraMezcal_Entry_Ornament7.png" />
                         <section className="cookie-dialog-section">
                             <img className="width-50 top-left" src="/img/PaqueraMezcal_Story_TopLeft3.png" />
@@ -66,7 +66,7 @@ class AgeAllowance extends Component {
                         </section>
                         <img className="full-image-min-200 mb-20" src="/img/PaqueraMezcal_Entry_Ornament8.png" />
                     </div>
-                    <div className="flex-space-end-between width-15">
+                    <div className="flex-space-end-between width-15" style={{flex: '1'}}>
                         <img className="full-image" src="/img/PaqueraMezcal_Entry_Ornament4.png" />
                         <img className="full-image" src="/img/PaqueraMezcal_Entry_Ornament3.png" />
                         <img className="full-image" src="/img/PaqueraMezcal_Entry_Ornament5.png" />
