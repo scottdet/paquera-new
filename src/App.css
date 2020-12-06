@@ -428,7 +428,7 @@ html {
 @media only screen and (max-width: 1320px) {
   .home-screen-background {
     margin-top: -150px !important;
-    min-height: calc(100vh - 37px);
+    min-height: -webkit-fill-available;
     margin-bottom: -40px;
   }
   .cookie-alert-div .title h1 {
