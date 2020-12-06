@@ -428,8 +428,8 @@ html {
 @media only screen and (max-width: 1320px) {
   .home-screen-background {
     margin-top: -150px !important;
-    min-height: -webkit-fill-available;
-    margin-bottom: -40px;
+    height: -webkit-fill-available;
+    margin-bottom: -52px;
   }
   .cookie-alert-div .title h1 {
     font-size: 27px;
@@ -462,7 +462,7 @@ html {
   }
   .footer-mobile {
     position: sticky !important;
-    min-height: 65px;
+    min-height: 67px;
     background: #3b49ae;
     color: #e1e0d8;
   }
