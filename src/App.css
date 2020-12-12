@@ -896,7 +896,10 @@ html {
     min-height: calc(100vh - 2px);
   }
   .stock-content {
-    margin-top: -20px;
+    margin-top: 0px;
+  }
+  .stockSection {
+    margin-top: 60px;
   }
   .cookie-alert-div {
     padding: 10px;
