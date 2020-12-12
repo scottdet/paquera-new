@@ -19,6 +19,7 @@ class Home extends Component {
                     <div className="width-100 home-screen-background">
                     </div>
                 </div>
+                <FooterComponent />
             </section>
         )
     }
