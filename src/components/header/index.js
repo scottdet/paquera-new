@@ -10,25 +10,43 @@ class HeaderComponent extends Component {
     }
     componentDidMount() {
         var url = (window.location.href).split(/[/]/);
-        console.log(url);
+        var header = document.getElementsByClassName("header")[0];
         var headerItems = document.getElementsByClassName("header")[0].getElementsByTagName("a");
         if(url[3] === 'home' || url[3] === '') {
+            header.style.display = "flex";
             for (var i = 0; i < headerItems.length; i++) {
                 headerItems[i].style.color = "#e1e0d8";
             }
+        } else if(url[3] === 'stocklist') {
+            var secondHeaderItems = document.getElementsByClassName("header")[1].getElementsByTagName("a");
+            header.style.display = "none";
+            for (var i = 0; i < secondHeaderItems.length; i++) {
+                secondHeaderItems[i].style.color = "#3b49ae";
+            }
         } else {
+            header.style.display = "flex";
             for (var i = 0; i < headerItems.length; i++) {
                 headerItems[i].style.color = "#3b49ae";
             }
         }
     }
     handleClick = (menu) => {
+        var url = (window.location.href).split(/[/]/);
+        var header = document.getElementsByClassName("header")[0];
         var headerItems = document.getElementsByClassName("header")[0].getElementsByTagName("a");
         if (menu === 'home') {
+            header.style.display = "flex";
             for (var i = 0; i < headerItems.length; i++) {
                 headerItems[i].style.color = "#e1e0d8";
             }
+        } else if(url[3] === 'stocklist') {
+            var secondHeaderItems = document.getElementsByClassName("header")[1].getElementsByTagName("a");
+            header.style.display = "none";
+            for (var i = 0; i < secondHeaderItems.length; i++) {
+                secondHeaderItems[i].style.color = "#3b49ae";
+            }
         } else {
+            header.style.display = "flex";
             for (var i = 0; i < headerItems.length; i++) {
                 headerItems[i].style.color = "#3b49ae";
             }
