@@ -15,7 +15,7 @@ class StockList extends Component {
         return (
             <Container className="stock-content pl-20 pr-20 fade-in" style={{flex: 'none'}}>
                 <section className="stockSection">
-                    <StockListComponent />
+                    {/* <StockListComponent /> */}
                 </section>
             </Container>
         )
