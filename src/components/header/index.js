@@ -39,10 +39,12 @@ class HeaderComponent extends Component {
                 headerItems[i].style.color = "#e1e0d8";
             }
         } else if(menu === 'stocklist') {
-            var secondHeaderItems = document.getElementsByClassName("header")[1].getElementsByTagName("a");
             header.style.display = "none";
-            for (i = 0; i < secondHeaderItems.length; i++) {
-                secondHeaderItems[i].style.color = "#3b49ae";
+            if (document.getElementsByClassName("header")[1]) {
+                var secondHeaderItems = document.getElementsByClassName("header")[1].getElementsByTagName("a");
+                for (i = 0; i < secondHeaderItems.length; i++) {
+                    secondHeaderItems[i].style.color = "#3b49ae";
+                }
             }
         } else {
             header.style.display = "flex";
