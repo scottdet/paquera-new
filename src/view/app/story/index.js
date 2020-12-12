@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import { Container } from 'semantic-ui-react'
 import ReactGA from 'react-ga'
+import HeaderComponent from '../../../components/header'
+import FooterComponent from '../../../components/footer'
 
 class Story extends Component {
     constructor(props) {
@@ -12,24 +14,28 @@ class Story extends Component {
     }
     render() {
         return(
-            <Container className="content mb-30 pl-20 pr-20 fade-in">
-                <section className="storySection">
-                    <div className="storyDiv">
-                        <div className="width-25">
-                            <img className="width-100" src="/img/PaqueraMezcal_Story_TopLeft3.png" />
-                            <img className="width-100" src="/img/PaqueraMezcal_Story_BottomLeft3.png" />
+            <section className="full-content m-0 height-webkit-fill-available">
+                <HeaderComponent />
+                <Container className="content mb-30 pl-20 pr-20 fade-in">
+                    <section className="storySection">
+                        <div className="storyDiv">
+                            <div className="width-25">
+                                <img className="width-100" src="/img/PaqueraMezcal_Story_TopLeft3.png" />
+                                <img className="width-100" src="/img/PaqueraMezcal_Story_BottomLeft3.png" />
+                            </div>
+                            <div className="width-50"></div>
+                            <div className="width-25">
+                                <img className="width-100" src="/img/PaqueraMezcal_Story_TopRight3.png" />
+                                <img className="width-100" src="/img/PaqueraMezcal_Story_BottomRight3.png" />
+                            </div>
+                            <div className="storyContentDiv">
+                                <p><abbr className="f-bold">PAQUERA</abbr> is meant to be appreciated and savored, we recommend sipping paquera slowly as to experience its quality. Created from a methodology perfected over generations of dedicated family artisans, our love for Mezcal has only deepened upon being exposed to its unique production process and rich culture. <br/><br/> Paquera's mission and purpose is to contribute resources to the Union de Productores Agropecuarios del Distrito de Ejutla de Crespo(UPADEC), which is a coalition of palenques that work together to sustain and grow their micro-enterprises.</p>
+                            </div>
                         </div>
-                        <div className="width-50"></div>
-                        <div className="width-25">
-                            <img className="width-100" src="/img/PaqueraMezcal_Story_TopRight3.png" />
-                            <img className="width-100" src="/img/PaqueraMezcal_Story_BottomRight3.png" />
-                        </div>
-                        <div className="storyContentDiv">
-                            <p><abbr className="f-bold">PAQUERA</abbr> is meant to be appreciated and savored, we recommend sipping paquera slowly as to experience its quality. Created from a methodology perfected over generations of dedicated family artisans, our love for Mezcal has only deepened upon being exposed to its unique production process and rich culture. <br/><br/> Paquera's mission and purpose is to contribute resources to the Union de Productores Agropecuarios del Distrito de Ejutla de Crespo(UPADEC), which is a coalition of palenques that work together to sustain and grow their micro-enterprises.</p>
-                        </div>
-                    </div>
-                </section>
-            </Container>
+                    </section>
+                </Container>
+                <FooterComponent />
+            </section>
         )
     }
 }

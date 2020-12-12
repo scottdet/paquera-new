@@ -3,6 +3,7 @@ import { Container } from 'semantic-ui-react'
 import ReactGA from 'react-ga'
 import StockListComponent from '../../../components/stocklist'
 import HeaderComponent from '../../../components/header'
+import FooterComponent from '../../../components/footer'
 
 class StockList extends Component {
     constructor(props) {
@@ -14,11 +15,15 @@ class StockList extends Component {
     }
     render() {
         return (
-            <Container style={{flex: 'none'}}>
-                <section className="stockSection">
-                    <StockListComponent />
-                </section>
-            </Container>
+            <section className="full-content m-0 height-webkit-fill-available">
+                <HeaderComponent />
+                <Container className="stock-content pl-20 pr-20 fade-in" style={{flex: 'none'}}>
+                    <section className="stockSection">
+                        <StockListComponent />
+                    </section>
+                </Container>
+                <FooterComponent />
+            </section>            
         )
     }
 }
