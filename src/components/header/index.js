@@ -39,7 +39,7 @@ class HeaderComponent extends Component {
             for (var i = 0; i < headerItems.length; i++) {
                 headerItems[i].style.color = "#e1e0d8";
             }
-        } else if(url[3] === 'stocklist') {
+        } else if(menu === 'stocklist') {
             var secondHeaderItems = document.getElementsByClassName("header")[1].getElementsByTagName("a");
             header.style.display = "none";
             for (var i = 0; i < secondHeaderItems.length; i++) {
