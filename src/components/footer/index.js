@@ -12,7 +12,7 @@ class FooterComponent extends Component {
                 <section className="footer-desktop">
                     <div className="subscribe">
                         <Input type="text" placeholder="EMAIL ADDRESS" />
-                        <button style={{cursor: 'pointer'}}>SUBMIT</button>
+                        <a href="mailto:sales@paqueralife.com"><button style={{cursor: 'pointer'}}>SUBMIT</button></a>
                         {/* <p>
                             Subscribe to receive updates, access to exclusive deals, and more.
                         </p> */}
