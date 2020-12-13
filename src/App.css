@@ -218,7 +218,7 @@ html {
   font-size: 32px;
   padding-left: 20px;
   padding-right: 20px;
-  color: #e1e0d8;
+  color: #3b49ae;
   z-index: 100;
   transition: 0.2s ease-in;
 }
@@ -422,7 +422,7 @@ html {
 .height-webkit-fill-available {
   flex: 0;
   display: block;
-  height: 100vh;
+  height: auto;
   flex-direction: column;
 }
 @media only screen and (max-width: 1320px) {
@@ -923,7 +923,7 @@ html {
     font-size: 16px;
     padding-left: 8px;
     padding-right: 8px;
-    color: #e1e0d8;
+    color: #3b49ae;
   }
   .header img {
     width: 60px;
