@@ -25,7 +25,7 @@ const CustomForm = ({status, message, onValidated }) => {
               />
             )}
             <Input type="email" onChange={e=>setEamil(e.target.value)} placeholder="EMAIL ADDRESS" />
-            <a onClick={submit}><button style={{cursor: 'pointer', top: '3px', position: 'relative'}}>SUBMIT</button></a>
+            <a onClick={submit}><button style={{cursor: 'pointer', top: '2px', position: 'relative'}}>SUBMIT</button></a>
         </>
     )
 }
