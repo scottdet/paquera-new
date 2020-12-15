@@ -20,12 +20,12 @@ const CustomForm = ({status, message, onValidated }) => {
             )} 
             {status === "success" && (
               <div
-                style={{ color: "green" }}
+                style={{color: "#e1e0d8"}}
                 dangerouslySetInnerHTML={{ __html: message }}
               />
             )}
             <Input type="email" onChange={e=>setEamil(e.target.value)} placeholder="EMAIL ADDRESS" />
-            <a onClick={submit}><button style={{cursor: 'pointer', top: '3.3px', position: 'relative'}}>SUBMIT</button></a>
+            <a onClick={submit}><button style={{cursor: 'pointer', top: '2px', position: 'relative'}}>SUBMIT</button></a>
         </>
     )
 }
