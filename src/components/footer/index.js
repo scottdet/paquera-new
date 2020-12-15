@@ -13,19 +13,19 @@ const CustomForm = ({status, message, onValidated }) => {
         });
     return (
         <>
-            {status === 'sending' && <div style={{color: "#e1e0d8"}}>sending...</div>}
+            {status === 'sending' && <div style={{color: "#e1e0d8", fontFamily: 'Jeff'}}>sending...</div>}
             {status === 'error' && (
-                <div style={{color: '#e1e0d8'}} 
+                <div style={{color: '#e1e0d8', fontFamily: 'Jeff'}} 
                 dangerouslySetInnerHTML={{ __html: message }}></div>
             )} 
             {status === "success" && (
               <div
-                style={{color: "#e1e0d8"}}
+                style={{color: "#e1e0d8", fontFamily: 'Jeff'}}
                 dangerouslySetInnerHTML={{ __html: message }}
               />
             )}
             <Input type="email" onChange={e=>setEamil(e.target.value)} placeholder="EMAIL ADDRESS" />
-            <a onClick={submit}><button style={{cursor: 'pointer', top: '2px', position: 'relative'}}>SUBMIT</button></a>
+            <a onClick={submit}><button style={{cursor: 'pointer', top: '3px', position: 'relative'}}>SUBMIT</button></a>
         </>
     )
 }
