@@ -34,10 +34,10 @@ class HeaderComponent extends Component {
         var header = document.getElementsByClassName("header")[0];
         var headerItems = document.getElementsByClassName("header")[0].getElementsByTagName("a");
         if (menu === 'home') {
-            header.style.display = "flex";
             for (var i = 0; i < headerItems.length; i++) {
                 headerItems[i].style.color = "#e1e0d8";
             }
+            header.style.display = "flex";
         } else if(menu === 'stocklist') {
             header.style.display = "none";
             if (document.getElementsByClassName("header")[1]) {
