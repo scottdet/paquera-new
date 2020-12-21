@@ -31,6 +31,20 @@ html {
 .none-border {
   border: 0px solid #3b49ae !important;
 }
+.home-screen-background {
+  background: url('./assets/img/PAQUERA_WebLanding_Desktop.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: calc(100vh + 5px);
+  margin-top: -200px;
+}
+.flex-display {
+  position: relative;
+  width: 100%;
+  min-height: calc(100vh - 30px);
+  display: flex;
+}
 .storySection {
   position: relative;
   display: flex;
