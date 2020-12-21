@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Container } from 'semantic-ui-react'
 import ReactGA from 'react-ga'
+import FooterComponent from '../../../components/footer'
 
 class Home extends Component {
     constructor(props) {
@@ -12,10 +13,13 @@ class Home extends Component {
     }
     render() {
         return (
-            <div className="content pl-20 pr-20 fade-in">
-                <div className="width-100 home-screen-background  fade-in">
+            <>
+                <div className="content pl-20 pr-20 fade-in">
+                    <div className="width-100 home-screen-background  fade-in">
+                    </div>
                 </div>
-            </div>
+                <FooterComponent />
+            </>
         )
     }
 }
