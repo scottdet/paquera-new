@@ -21,7 +21,6 @@ const Main = () => {
                 <Route path={'/stocklist'} component={StockList} />
                 <Redirect to="/home" />
             </Switch>
-            <FooterComponent />
         </section>
     )
 }
