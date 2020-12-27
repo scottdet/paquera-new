@@ -65,7 +65,7 @@ class HeaderComponent extends Component {
                 </NavLink>
                 <NavLink to={"/home"}>
                     <abbr onClick={() => this.handleClick('home')}>
-                        <img src="/img/_PaqueraMezcal_Logo.png" />
+                        <img src="/img/_PaqueraMezcal_Logo.png" alt="" />
                     </abbr>
                 </NavLink>
                 <NavLink to={"/stocklist"} className={this.state.menuActive === 'stocklist' ? 'active' : ''}>

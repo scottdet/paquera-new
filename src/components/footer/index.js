@@ -31,9 +31,6 @@ const CustomForm = ({status, message, onValidated }) => {
 }
 
 class FooterComponent extends Component {
-    constructor(props) {
-        super(props);
-    }
     render() {
         const url = "https://paqueramezcal.us7.list-manage.com/subscribe/post?u=f4ffa6ffe304739b5053df13a&amp;id=daa6ea6e3e";
         return (

@@ -1,9 +1,6 @@
 import React, { Component } from 'react'
 
 class StockListComponent extends Component {
-    constructor(props) {
-        super(props);
-    }
     componentDidMount() {
         var me = document.querySelector('script[src="https://stockist.co/embed/v1/widget.min.js"]');
         if (me != null) {
