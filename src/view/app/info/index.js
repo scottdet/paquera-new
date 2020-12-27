@@ -4,9 +4,6 @@ import ReactGA from 'react-ga'
 import FooterComponent from '../../../components/footer'
 
 class Info extends Component {
-    constructor(props) {
-        super(props);
-    }
     componentDidMount() {
         ReactGA.initialize('UA-127153210-1');
         ReactGA.pageview('/info');
@@ -16,8 +13,8 @@ class Info extends Component {
             <>
                 <Container className="content pl-20 pr-20 mb-30 fade-in">
                     <div className="width-15" style={{textAlign: 'center', paddingLeft: '10px'}}>
-                        <img className="home-image" src="/img/PaqueraMezcal_Landing_LeftArt.png" />
-                        <img className="home-image-2" src="/img/Paquera_AgaveTree_Left-01.png" />
+                        <img className="home-image" src="/img/PaqueraMezcal_Landing_LeftArt.png" alt="" />
+                        <img className="home-image-2" src="/img/Paquera_AgaveTree_Left-01.png" alt="" />
                     </div>
                     <div className="width-70" style={{display: 'flex', justifyContent: 'center', marginTop: '15px'}}>
                         <p className="infoContent">
@@ -32,8 +29,8 @@ class Info extends Component {
                         </p>
                     </div>
                     <div className="width-15" style={{textAlign: 'center', paddingRight: '10px'}}>
-                        <img className="home-image" src="/img/PaqueraMezcal_Landing_RightArt.png" />
-                        <img className="home-image-2" src="/img/Paquera_AgaveTree_Right-01.png" />
+                        <img className="home-image" src="/img/PaqueraMezcal_Landing_RightArt.png" alt="" />
+                        <img className="home-image-2" src="/img/Paquera_AgaveTree_Right-01.png" alt="" />
                     </div>
                     {/* <section className="infoSection">
                         <div className="infoDiv">

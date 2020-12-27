@@ -6,9 +6,6 @@ import HeaderComponent from '../../../components/header'
 import FooterComponent from '../../../components/footer'
 
 class StockList extends Component {
-    constructor(props) {
-        super(props);
-    }
     componentDidMount() {
         ReactGA.initialize('UA-127153210-1');
         ReactGA.pageview('/stocklist');

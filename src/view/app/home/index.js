@@ -3,9 +3,6 @@ import ReactGA from 'react-ga'
 import FooterComponent from '../../../components/footer'
 
 class Home extends Component {
-    constructor(props) {
-        super(props);
-    }
     componentDidMount() {
         ReactGA.initialize('UA-127153210-1');
         ReactGA.pageview('/home');
