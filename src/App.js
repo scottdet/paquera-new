@@ -13,7 +13,6 @@ class App extends Component {
   }
   render() {
     const cookie = cookies.get('verification');
-    console.log(cookie);
     if (cookie === 'yes') {
       return (
         <div className="height-webkit-fill-available">

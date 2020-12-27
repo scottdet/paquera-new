@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { Container } from 'semantic-ui-react'
 import ReactGA from 'react-ga'
 import FooterComponent from '../../../components/footer'
 
