@@ -1,16 +1,22 @@
 import React, { Component } from 'react'
 import { Container } from 'semantic-ui-react'
 import ReactGA from 'react-ga'
+import HeaderComponent from '../../../components/header'
 import FooterComponent from '../../../components/footer'
 
 class Buynow extends Component {
     componentDidMount() {
         ReactGA.initialize('UA-127153210-1');
         ReactGA.pageview('/Buy Now');
+        
+        var header = document.getElementsByClassName("header")[0];
+        header.style.display = "none";
+        console.log(header);
     }
     render() {
         return (
-            <>
+            <section className="full-content m-0">
+                <HeaderComponent />
                 <Container className="content pl-20 pr-20 mb-30 fade-in" style={{flex: 'none', marginTop: '20px'}}>
                     <div className="row" style={{marginTop: '30px'}}>
                             <div className="col-xl-4 col-md-6 col-6">
@@ -76,7 +82,7 @@ class Buynow extends Component {
                         </div>     
                 </Container>
                 <FooterComponent />
-            </>
+            </section>
         )
     }
 }
