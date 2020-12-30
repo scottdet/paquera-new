@@ -6,6 +6,7 @@ import Home from './home'
 import Info from './info'
 import Story from './story'
 import StockList from './stocklist'
+import BuyNow from './buynow'
 // import FooterComponent from '../../components/footer'
 
 const Main = () => {
@@ -18,6 +19,7 @@ const Main = () => {
                 <Route path={'/info'} component={Info} />
                 <Route path={'/story'} component={Story} />
                 <Route path={'/stocklist'} component={StockList} />
+                <Route path={'/buynow'} component={BuyNow} />
                 <Redirect to="/home" />
             </Switch>
         </section>
