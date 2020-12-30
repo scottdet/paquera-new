@@ -1,5 +1,6 @@
 import React, { Component, useState } from 'react'
 import { Input, Icon } from 'semantic-ui-react'
+import { NavLink } from 'react-router-dom'
 import 'semantic-ui-css/semantic.min.css'
 import MailchimpSubscribe from 'react-mailchimp-subscribe'
 
@@ -57,7 +58,9 @@ class FooterComponent extends Component {
                         {/* <div id='product-component-1605295802728'></div> */}
                     </div>
                     <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', height: '65px'}}>
-                      <a href="https://www.thewhiskeydealer.com/collections/paquera-mezcal"><button style={{cursor: 'pointer', paddingLeft: '30px', paddingRight: '30px', marginLeft: '-15px'}}>Buy Now</button></a>
+                        <a href='/buynow'>
+                          <button style={{cursor: 'pointer', paddingLeft: '30px', paddingRight: '30px', marginLeft: '-15px'}}>Buy Now</button>
+                        </a>
                     </div>
                     <div className="right-footer f-right">
                         <div className="social-icons">
@@ -75,7 +78,7 @@ class FooterComponent extends Component {
                         <div id='product-component-1605295847555'></div>
                     </div> */}
                     <div className="social-icons" style={{paddingTop: '15px'}}>
-                        <a href="https://www.thewhiskeydealer.com/collections/paquera-mezcal"><button style={{cursor: 'pointer', paddingLeft: '30px', paddingRight: '30px', marginRight: '50px'}}>Buy Now</button></a>
+                        <a href="/buynow"><button style={{cursor: 'pointer', paddingLeft: '30px', paddingRight: '30px', marginRight: '50px'}}>Buy Now</button></a>
                         {/* <Icon name="twitter" size="huge" /> */}
                         <a className="social-icon" href="https://www.facebook.com/paqueramezcal"><Icon name="facebook f" size="huge" /></a>
                         <a className="social-icon" href="https://www.instagram.com/paqueramezcal/"><Icon name="instagram" size="huge" /></a>
