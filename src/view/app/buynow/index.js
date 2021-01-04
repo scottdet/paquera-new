@@ -11,7 +11,6 @@ class Buynow extends Component {
         
         var header = document.getElementsByClassName("header")[0];
         header.style.display = "none";
-        console.log(header);
     }
     render() {
         return (
