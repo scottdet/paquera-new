@@ -88,14 +88,17 @@
       /*<![CDATA[*/
       setTimeout(function () {
         var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
-        if (window.ShopifyBuy) {
-          if (window.ShopifyBuy.UI) {
-            ShopifyBuyInit();
+        var url = (window.location.href).split(/[/]/);
+        if (url[3] === 'buynow') {
+          if (window.ShopifyBuy) {
+            if (window.ShopifyBuy.UI) {
+              ShopifyBuyInit();
+            } else {
+              loadScript();
+            }
           } else {
             loadScript();
           }
-        } else {
-          loadScript();
         }
         function loadScript() {
           var script = document.createElement('script');
@@ -347,14 +350,17 @@
         /*<![CDATA[*/
         setTimeout(function () {
           var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
-          if (window.ShopifyBuy) {
-            if (window.ShopifyBuy.UI) {
-              ShopifyBuyInit();
+          var url = (window.location.href).split(/[/]/);
+          if (url[3] === 'buynow') {
+            if (window.ShopifyBuy) {
+              if (window.ShopifyBuy.UI) {
+                ShopifyBuyInit();
+              } else {
+                loadScript();
+              }
             } else {
               loadScript();
             }
-          } else {
-            loadScript();
           }
           function loadScript() {
             var script = document.createElement('script');
@@ -606,14 +612,17 @@
         /*<![CDATA[*/
         setTimeout(function () {
           var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
-          if (window.ShopifyBuy) {
-            if (window.ShopifyBuy.UI) {
-              ShopifyBuyInit();
+          var url = (window.location.href).split(/[/]/);
+          if (url[3] === 'buynow') {
+            if (window.ShopifyBuy) {
+              if (window.ShopifyBuy.UI) {
+                ShopifyBuyInit();
+              } else {
+                loadScript();
+              }
             } else {
               loadScript();
             }
-          } else {
-            loadScript();
           }
           function loadScript() {
             var script = document.createElement('script');
@@ -865,14 +874,17 @@
         /*<![CDATA[*/
         setTimeout(function () {
           var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
-          if (window.ShopifyBuy) {
-            if (window.ShopifyBuy.UI) {
-              ShopifyBuyInit();
+          var url = (window.location.href).split(/[/]/);
+          if (url[3] === 'buynow') {
+            if (window.ShopifyBuy) {
+              if (window.ShopifyBuy.UI) {
+                ShopifyBuyInit();
+              } else {
+                loadScript();
+              }
             } else {
               loadScript();
             }
-          } else {
-            loadScript();
           }
           function loadScript() {
             var script = document.createElement('script');
@@ -1124,14 +1136,17 @@
         /*<![CDATA[*/
         setTimeout(function () {
           var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
-          if (window.ShopifyBuy) {
-            if (window.ShopifyBuy.UI) {
-              ShopifyBuyInit();
+          var url = (window.location.href).split(/[/]/);
+          if (url[3] === 'buynow') {
+            if (window.ShopifyBuy) {
+              if (window.ShopifyBuy.UI) {
+                ShopifyBuyInit();
+              } else {
+                loadScript();
+              }
             } else {
               loadScript();
             }
-          } else {
-            loadScript();
           }
           function loadScript() {
             var script = document.createElement('script');
@@ -1383,14 +1398,17 @@
         /*<![CDATA[*/
         setTimeout(function () {
           var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
-          if (window.ShopifyBuy) {
-            if (window.ShopifyBuy.UI) {
-              ShopifyBuyInit();
+          var url = (window.location.href).split(/[/]/);
+          if (url[3] === 'buynow') {
+            if (window.ShopifyBuy) {
+              if (window.ShopifyBuy.UI) {
+                ShopifyBuyInit();
+              } else {
+                loadScript();
+              }
             } else {
               loadScript();
             }
-          } else {
-            loadScript();
           }
           function loadScript() {
             var script = document.createElement('script');

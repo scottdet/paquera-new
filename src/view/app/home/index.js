@@ -6,11 +6,6 @@ class Home extends Component {
     componentDidMount() {
         ReactGA.initialize('UA-127153210-1');
         ReactGA.pageview('/home');
-        
-        var x = document.getElementsByClassName("shopify-buy-frame");
-        for (var i = 0; i < x.length; i++) {
-            x[i].style.display = 'none';
-        }
     }
     render() {
         return (
