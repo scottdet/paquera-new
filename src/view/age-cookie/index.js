@@ -4,10 +4,10 @@ import { cookies } from '../../cookie'
 
 class AgeAllowance extends Component {
     componentDidMount() {
-        var x = document.getElementsByClassName("shopify-buy-frame");
-        for (var i = 0; i < x.length; i++) {
-            x[i].style.display = 'none';
-        }
+        // var x = document.getElementsByClassName("shopify-buy-frame");
+        // for (var i = 0; i < x.length; i++) {
+        //     x[i].style.display = 'none';
+        // }
     }
     handleClick = (res) => {
         if (res === 'Yes') {
