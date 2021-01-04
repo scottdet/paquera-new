@@ -105,7 +105,7 @@
           (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
           var url = (window.location.href).split(/[/]/);
           // if (url[3] === 'buynow') {
-          //   script.onload = ShopifyBuyInit;
+          script.onload = ShopifyBuyInit;
           // }
         }
         function ShopifyBuyInit() {
