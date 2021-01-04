@@ -104,9 +104,9 @@
           script.src = scriptURL;
           (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
           var url = (window.location.href).split(/[/]/);
-          if (url[3] === 'buynow') {
-            script.onload = ShopifyBuyInit;
-          }
+          // if (url[3] === 'buynow') {
+          //   script.onload = ShopifyBuyInit;
+          // }
         }
         function ShopifyBuyInit() {
           var client = ShopifyBuy.buildClient({
