@@ -89,7 +89,8 @@
       (function () {
         var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
         if (window.ShopifyBuy) {
-          if (window.ShopifyBuy.UI) {
+          var url = (window.location.href).split(/[/]/);
+          if (window.ShopifyBuy.UI && url[3] === 'buynow') {
             ShopifyBuyInit();
           } else {
             loadScript();
@@ -102,7 +103,10 @@
           script.async = true;
           script.src = scriptURL;
           (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
-          script.onload = ShopifyBuyInit;
+          var url = (window.location.href).split(/[/]/);
+          if (url[3] === 'buynow') {
+            script.onload = ShopifyBuyInit;
+          }
         }
         function ShopifyBuyInit() {
           var client = ShopifyBuy.buildClient({
@@ -348,7 +352,8 @@
         (function () {
           var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
           if (window.ShopifyBuy) {
-            if (window.ShopifyBuy.UI) {
+            var url = (window.location.href).split(/[/]/);
+            if (window.ShopifyBuy.UI && url[3] === 'buynow') {
               ShopifyBuyInit();
             } else {
               loadScript();
@@ -361,7 +366,10 @@
             script.async = true;
             script.src = scriptURL;
             (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
-            script.onload = ShopifyBuyInit;
+            var url = (window.location.href).split(/[/]/);
+            if (url[3] === 'buynow') {
+              script.onload = ShopifyBuyInit;
+            }
           }
           function ShopifyBuyInit() {
             var client = ShopifyBuy.buildClient({
@@ -607,7 +615,8 @@
         (function () {
           var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
           if (window.ShopifyBuy) {
-            if (window.ShopifyBuy.UI) {
+            var url = (window.location.href).split(/[/]/);
+            if (window.ShopifyBuy.UI && url[3] === 'buynow') {
               ShopifyBuyInit();
             } else {
               loadScript();
@@ -620,7 +629,10 @@
             script.async = true;
             script.src = scriptURL;
             (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
-            script.onload = ShopifyBuyInit;
+            var url = (window.location.href).split(/[/]/);
+            if (url[3] === 'buynow') {
+              script.onload = ShopifyBuyInit;
+            }
           }
           function ShopifyBuyInit() {
             var client = ShopifyBuy.buildClient({
@@ -866,7 +878,8 @@
         (function () {
           var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
           if (window.ShopifyBuy) {
-            if (window.ShopifyBuy.UI) {
+            var url = (window.location.href).split(/[/]/);
+            if (window.ShopifyBuy.UI && url[3] === 'buynow') {
               ShopifyBuyInit();
             } else {
               loadScript();
@@ -879,7 +892,10 @@
             script.async = true;
             script.src = scriptURL;
             (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
-            script.onload = ShopifyBuyInit;
+            var url = (window.location.href).split(/[/]/);
+            if (url[3] === 'buynow') {
+              script.onload = ShopifyBuyInit;
+            }
           }
           function ShopifyBuyInit() {
             var client = ShopifyBuy.buildClient({
@@ -1125,7 +1141,8 @@
         (function () {
           var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
           if (window.ShopifyBuy) {
-            if (window.ShopifyBuy.UI) {
+            var url = (window.location.href).split(/[/]/);
+            if (window.ShopifyBuy.UI && url[3] === 'buynow') {
               ShopifyBuyInit();
             } else {
               loadScript();
@@ -1138,7 +1155,10 @@
             script.async = true;
             script.src = scriptURL;
             (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
-            script.onload = ShopifyBuyInit;
+            var url = (window.location.href).split(/[/]/);
+            if (url[3] === 'buynow') {
+              script.onload = ShopifyBuyInit;
+            }
           }
           function ShopifyBuyInit() {
             var client = ShopifyBuy.buildClient({
@@ -1384,7 +1404,8 @@
         (function () {
           var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
           if (window.ShopifyBuy) {
-            if (window.ShopifyBuy.UI) {
+            var url = (window.location.href).split(/[/]/);
+            if (window.ShopifyBuy.UI && url[3] === 'buynow') {
               ShopifyBuyInit();
             } else {
               loadScript();
@@ -1397,7 +1418,10 @@
             script.async = true;
             script.src = scriptURL;
             (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
-            script.onload = ShopifyBuyInit;
+            var url = (window.location.href).split(/[/]/);
+            if (url[3] === 'buynow') {
+              script.onload = ShopifyBuyInit;
+            }
           }
           function ShopifyBuyInit() {
             var client = ShopifyBuy.buildClient({
