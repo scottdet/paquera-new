@@ -90,7 +90,7 @@
         var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
         if (window.ShopifyBuy) {
           var url = (window.location.href).split(/[/]/);
-          if (window.ShopifyBuy.UI && url[3] === 'buynow') {
+          if (window.ShopifyBuy.UI) {
             ShopifyBuyInit();
           } else {
             loadScript();
