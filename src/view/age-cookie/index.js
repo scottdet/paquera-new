@@ -11,6 +11,10 @@ class AgeAllowance extends Component {
             cookies.set('verification', 'no', { path: '/' });
             window.location.href = "https://google.com";
         }
+        var x = document.getElementsByClassName("shopify-buy-frame");
+        for (var i = 0; i < x.length; i++) {
+            x[i].style.display = 'none';
+        }
     }
     render() {
         return (
