@@ -23,7 +23,14 @@ class App extends Component {
       )
     } else {
       return (
-        <AgeCookieComponent />
+        <div className="height-webkit-fill-available">
+          <Router>
+            <Switch>
+              <Route path="/age-cookie" component={AgeCookieComponent} />
+              <Redirect to="/age-cookie" />
+            </Switch>
+          </Router>
+        </div>
       )
     }
   }
