@@ -315,7 +315,7 @@ html {
 .footer-mobile {
   display: none;
 }
-.content {
+.mainContent {
   position: relative;
   display: flex !important;
   justify-content: center;
@@ -337,7 +337,7 @@ html {
   margin-top: -50px;
   z-index: -1;
 }
-.content .width-70 {
+.mainContent .width-70 {
   text-align: center;
 }
 .home-image {
@@ -449,7 +449,7 @@ html {
     width: 100%;
     position: relative;
   }
-  .content {
+  .mainContent {
     margin-top: 0px;
     min-height: calc(100vh - 227px) !important;
   }
@@ -786,7 +786,7 @@ html {
   .flex-space-end-between .mb-20 {
     margin-bottom: 20px !important;
   }
-  .content {
+  .mainContent {
     min-height: calc(100vh - 224px) !important;
   }
   .width-15 {
@@ -1034,7 +1034,7 @@ html {
     background-position: center !important;
     min-height: -webkit-fill-available !important;
   }
-  .content {
+  .mainContent {
     min-height: calc(100vh - 192px) !important;
     min-height: 0px !important;
     flex: 1;
@@ -1296,7 +1296,7 @@ html {
   text-align: center;
 }
 .buynow-img-small {
-  width: 40%;
+  width: 50%;
   text-align: center;
 }
 .buynow-img-div {
@@ -1319,17 +1319,27 @@ html {
 .buynow-img-div h1 {
   font-family: 'Jeff';
   font-weight: lighter;
-  font-size: 24px;
+  font-size: 19px;
   margin-top: 10px;
   margin-bottom: 0px;
 }
 .buynow-img-div h2 {
   font-family: 'Jeff';
-  font-size: 24px;
+  font-size: 19px;
   margin-top: 5px;
   color: #dc9541;
 }
-
+.infoIcon {
+  top: -10px;
+  position: relative;
+  cursor: pointer;
+}
+.modal p {
+  font-size: 18px;
+}
+.text-underline {
+  text-decoration: underline;
+}
 @media (max-width: 1440px) {
   .buynow-img-div {
     height: 450px;
@@ -1473,6 +1483,14 @@ html {
   .buynow-img-div h2 {
     font-size: 14px;
   }
+  .infoIcon {
+    top: -5px;
+    position: relative;
+    cursor: pointer;
+  }
+  .modal p {
+    font-size: 15px;
+  }
 }
 @media (max-width: 500px) {
   .buynow-img-div {
@@ -1481,4 +1499,23 @@ html {
   .buynow-img-div div {
     height: 150px;
   }
+}
+.modal {
+  top: auto !important;
+  left: auto !important;
+  right: auto !important;
+  bottom: auto !important;
+  margin-bottom: 50px !important;
+}
+.ui.modal>.header {
+  margin-left: 0px !important;
+}
+.f-Jeff {
+  font-family: 'Jeff';
+}
+.f-bold {
+  font-weight: bold;
+}
+.f-HiH {
+  font-family: 'HiH';
 }
