@@ -119,7 +119,7 @@ class Buynow extends Component {
                                                         MILL: Stone Mill<br/>
                                                         FERMENTATION: Awewete Wood Barrel<br/>
                                                         DISTILLATION TYPE: Copper Still <br/>
-                                                        DISTILLED: 2X<br/>
+                                                        DISTILLED: 2X<br/><br/>
                                                     </abbr>
 
                                                     <abbr className="f-Jeff text-underline">Tasting Notes:</abbr><br/>
@@ -335,7 +335,7 @@ class Buynow extends Component {
                                                         MILL: Stone Mill<br/>
                                                         FERMENTATION: Awewete Wood Barrel<br/>
                                                         DISTILLATION TYPE: Copper Still <br/>
-                                                        DISTILLED: 2X<br/>
+                                                        DISTILLED: 2X<br/><br/>
                                                     </abbr>
 
                                                     <abbr className="f-Jeff text-underline">Tasting Notes:</abbr><br/>
