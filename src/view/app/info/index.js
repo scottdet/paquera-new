@@ -11,7 +11,7 @@ class Info extends Component {
     render() {
         return (
             <>
-                <Container className="content pl-20 pr-20 mb-30 fade-in">
+                <Container className="mainContent pl-20 pr-20 mb-30 fade-in">
                     <div className="width-15" style={{textAlign: 'center', paddingLeft: '10px'}}>
                         <img className="home-image" src="/img/PaqueraMezcal_Landing_LeftArt.png" alt="" />
                         <img className="home-image-2" src="/img/Paquera_AgaveTree_Left-01.png" alt="" />
