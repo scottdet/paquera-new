@@ -48,9 +48,8 @@ class Buynow extends Component {
                                             <Modal.Header><abbr className="f-bold f-Jeff">New 100% Espadin (750ml)</abbr></Modal.Header>
                                             <Modal.Content>
                                                 <p className="f-HiH">
-                                                    Produced by a CO-OP in San Miguel Ejutla, Paquera Mezcal was created from a methodology perfected over generations of dedicated family artisans. Our love for Mezcal has only deepened upon being exposed to its unique production process and rich culture.<br/><br/>
-
-                                                    Serve neat in a Copita or made in cocktail form, Paquera doesn't overwhelm you with smoke but eases you into its smoothness. It can be regarded as “the most approachable mezcal in the market”. Balanced and full from the start and finishes buttery. It's to be enjoyed in social settings, either celebratory or with the people you love. <br/><br/>
+                                                    <abbr className="f-Jeff text-underline">Tasting Notes:</abbr><br/>
+                                                    “Earthy, smokey nose; silky and earthy with vegetal flavors and some sweet vanilla notes; smooth and lush, balanced and long.”<br/><br/>
 
                                                     <abbr className="f-Jeff">Awards & Accolades</abbr><br/>
                                                     • 2019 - Gold / 93 points, Tasting Panel Magazine<br/><br/>
@@ -66,9 +65,6 @@ class Buynow extends Component {
                                                     FERMENTATION: Awewete Wood Barrel<br/>
                                                     DISTILLATION TYPE: Copper Still <br/>
                                                     DISTILLED: 2X<br/><br/></abbr>
-
-                                                    <abbr className="f-Jeff text-underline">Tasting Notes:</abbr><br/>
-                                                    “Earthy, smokey nose; silky and earthy with vegetal flavors and some sweet vanilla notes; smooth and lush, balanced and long.”
                                                 </p>
                                             </Modal.Content>
                                             <Modal.Actions>
@@ -101,9 +97,8 @@ class Buynow extends Component {
                                             <Modal.Header><abbr className="f-bold f-Jeff">New 80% Espadin/20% Barril (750ml)</abbr></Modal.Header>
                                             <Modal.Content>
                                                 <p className="f-HiH">
-                                                    Produced by a CO-OP in San Miguel Ejutla, Paquera Mezcal was created from a methodology perfected over generations of dedicated family artisans. Our love for Mezcal has only deepened upon being exposed to its unique production process and rich culture.<br/><br/>
-
-                                                    Serve neat in a Copita or made in cocktail form, Paquera doesn't overwhelm you with smoke but eases you into its smoothness. It can be regarded as “the most approachable mezcal in the market”. Balanced and full from the start and finishes buttery. It's to be enjoyed in social settings, either celebratory or with the people you love. <br/><br/>
+                                                    <abbr className="f-Jeff text-underline">Tasting Notes:</abbr><br/>
+                                                    “Spicy but restrained nose; silky and elegant with balanced, stylish flavors and considerable finesse and breeding, crip, and long.”<br/><br/>
 
                                                     <abbr className="f-Jeff">Awards & Accolades</abbr><br/>
                                                     • 2019 - Gold / 93 points, Tasting Panel Magazine<br/><br/>
@@ -121,9 +116,6 @@ class Buynow extends Component {
                                                         DISTILLATION TYPE: Copper Still <br/>
                                                         DISTILLED: 2X<br/><br/>
                                                     </abbr>
-
-                                                    <abbr className="f-Jeff text-underline">Tasting Notes:</abbr><br/>
-                                                    “Spicy but restrained nose; silky and elegant with balanced, stylish flavors and considerable finesse and breeding, crip, and long.”
                                                 </p>
                                             </Modal.Content>
                                             <Modal.Actions>
@@ -156,9 +148,8 @@ class Buynow extends Component {
                                             <Modal.Header><abbr className="f-bold f-Jeff">New 100% Espadin 200ml</abbr></Modal.Header>
                                             <Modal.Content>
                                                 <p className="f-HiH">
-                                                    Produced by a CO-OP in San Miguel Ejutla, Paquera Mezcal was created from a methodology perfected over generations of dedicated family artisans. Our love for Mezcal has only deepened upon being exposed to its unique production process and rich culture.<br/><br/>
-
-                                                    Serve neat in a Copita or made in cocktail form, Paquera doesn't overwhelm you with smoke but eases you into its smoothness. It can be regarded as “the most approachable mezcal in the market”. Balanced and full from the start and finishes buttery. It's to be enjoyed in social settings, either celebratory or with the people you love. <br/><br/>
+                                                    <abbr className="f-Jeff text-underline">Tasting Notes:</abbr><br/>
+                                                    “Earthy, smokey nose; silky and earthy with vegetal flavors and some sweet vanilla notes; smooth and lush, balanced and long.”<br/><br/>
 
                                                     <abbr className="f-Jeff">Awards & Accolades</abbr><br/>
                                                     • 2019 - Gold / 93 points, Tasting Panel Magazine<br/><br/>
@@ -174,9 +165,6 @@ class Buynow extends Component {
                                                     FERMENTATION: Awewete Wood Barrel<br/>
                                                     DISTILLATION TYPE: Copper Still <br/>
                                                     DISTILLED: 2X<br/><br/></abbr>
-
-                                                    <abbr className="f-Jeff text-underline">Tasting Notes:</abbr><br/>
-                                                    “Earthy, smokey nose; silky and earthy with vegetal flavors and some sweet vanilla notes; smooth and lush, balanced and long.”
                                                 </p>
                                             </Modal.Content>
                                             <Modal.Actions>
@@ -209,9 +197,8 @@ class Buynow extends Component {
                                             <Modal.Header><abbr className="f-bold f-Jeff">New 100% Barril (750ml)</abbr></Modal.Header>
                                             <Modal.Content>
                                                 <p className="f-HiH">
-                                                    Produced by a CO-OP in San Miguel Ejutla, Paquera Mezcal was created from a methodology perfected over generations of dedicated family artisans. Our love for Mezcal has only deepened upon being exposed to its unique production process and rich culture.<br/><br/>
-
-                                                    Serve neat in a Copita or made in cocktail form, Paquera doesn't overwhelm you with smoke but eases you into its smoothness. It can be regarded as “the most approachable mezcal in the market”. Balanced and full from the start and finishes buttery. It's to be enjoyed in social settings, either celebratory or with the people you love. <br/><br/>
+                                                    <abbr className="f-Jeff text-underline">Tasting Notes:</abbr><br/>
+                                                    “Floral nose; silky texture with tangy style and bright, righ, elegant style; ripe and lush with great depth and tangy notes of earth and spice, long and racy, silky and complex.”<br/><br/>
 
                                                     <abbr className="f-Jeff">Awards & Accolades</abbr><br/>
                                                     • 2019 - Double Gold / 94 points, Tasting Panel Magazine<br/><br/>
@@ -227,10 +214,8 @@ class Buynow extends Component {
                                                         MILL: Stone Mill<br/>
                                                         FERMENTATION: Awewete Wood Barrel<br/>
                                                         DISTILLATION TYPE: Copper Still <br/>
-                                                        DISTILLED: 2X<br/><br/></abbr>
-
-                                                    <abbr className="f-Jeff text-underline">Tasting Notes:</abbr><br/>
-                                                    “Floral nose; silky texture with tangy style and bright, righ, elegant style; ripe and lush with great depth and tangy notes of earth and spice, long and racy, silky and complex.”
+                                                        DISTILLED: 2X<br/><br/>
+                                                    </abbr>
                                                 </p>
                                             </Modal.Content>
                                             <Modal.Actions>
@@ -263,9 +248,8 @@ class Buynow extends Component {
                                             <Modal.Header><abbr className="f-bold f-Jeff">New 100% Barril 200ml</abbr></Modal.Header>
                                             <Modal.Content>
                                                 <p className="f-HiH">
-                                                    Produced by a CO-OP in San Miguel Ejutla, Paquera Mezcal was created from a methodology perfected over generations of dedicated family artisans. Our love for Mezcal has only deepened upon being exposed to its unique production process and rich culture.<br/><br/>
-
-                                                    Serve neat in a Copita or made in cocktail form, Paquera doesn't overwhelm you with smoke but eases you into its smoothness. It can be regarded as “the most approachable mezcal in the market”. Balanced and full from the start and finishes buttery. It's to be enjoyed in social settings, either celebratory or with the people you love. <br/><br/>
+                                                    <abbr className="f-Jeff text-underline">Tasting Notes:</abbr><br/>
+                                                    “Floral nose; silky texture with tangy style and bright, righ, elegant style; ripe and lush with great depth and tangy notes of earth and spice, long and racy, silky and complex.”<br/><br/>
 
                                                     <abbr className="f-Jeff">Awards & Accolades</abbr><br/>
                                                     • 2019 - Double Gold / 94 points, Tasting Panel Magazine<br/><br/>
@@ -281,10 +265,8 @@ class Buynow extends Component {
                                                         MILL: Stone Mill<br/>
                                                         FERMENTATION: Awewete Wood Barrel<br/>
                                                         DISTILLATION TYPE: Copper Still <br/>
-                                                        DISTILLED: 2X<br/><br/></abbr>
-
-                                                    <abbr className="f-Jeff text-underline">Tasting Notes:</abbr><br/>
-                                                    “Floral nose; silky texture with tangy style and bright, righ, elegant style; ripe and lush with great depth and tangy notes of earth and spice, long and racy, silky and complex.”
+                                                        DISTILLED: 2X<br/><br/>
+                                                    </abbr>
                                                 </p>
                                             </Modal.Content>
                                             <Modal.Actions>
@@ -317,9 +299,8 @@ class Buynow extends Component {
                                             <Modal.Header><abbr className="f-bold f-Jeff">New 80% Espadin/20% Barril 200ml</abbr></Modal.Header>
                                             <Modal.Content>
                                                 <p className="f-HiH">
-                                                    Produced by a CO-OP in San Miguel Ejutla, Paquera Mezcal was created from a methodology perfected over generations of dedicated family artisans. Our love for Mezcal has only deepened upon being exposed to its unique production process and rich culture.<br/><br/>
-
-                                                    Serve neat in a Copita or made in cocktail form, Paquera doesn't overwhelm you with smoke but eases you into its smoothness. It can be regarded as “the most approachable mezcal in the market”. Balanced and full from the start and finishes buttery. It's to be enjoyed in social settings, either celebratory or with the people you love. <br/><br/>
+                                                    <abbr className="f-Jeff text-underline">Tasting Notes:</abbr><br/>
+                                                    “Spicy but restrained nose; silky and elegant with balanced, stylish flavors and considerable finesse and breeding, crip, and long.”<br/><br/>
 
                                                     <abbr className="f-Jeff">Awards & Accolades</abbr><br/>
                                                     • 2019 - Gold / 93 points, Tasting Panel Magazine<br/><br/>
@@ -337,9 +318,6 @@ class Buynow extends Component {
                                                         DISTILLATION TYPE: Copper Still <br/>
                                                         DISTILLED: 2X<br/><br/>
                                                     </abbr>
-
-                                                    <abbr className="f-Jeff text-underline">Tasting Notes:</abbr><br/>
-                                                    “Spicy but restrained nose; silky and elegant with balanced, stylish flavors and considerable finesse and breeding, crip, and long.”
                                                 </p>
                                             </Modal.Content>
                                             <Modal.Actions>
