@@ -30,8 +30,8 @@ class Buynow extends Component {
             <section className="full-content m-0">
                 <HeaderComponent />
                 <Container className="mainContent pl-20 pr-20 mb-30 fade-in" style={{flex: 'none', marginTop: '20px'}}>
-                    <div className="row" style={{marginTop: '30px'}}>
-                            <div className="col-xl-4 col-md-6 col-6">
+                    <div className="row" style={{marginTop: '20px'}}>
+                            <div className="col-xl-4 col-md-6 col-6 mt-20">
                                 <div className="buynow-img-div">
                                     <div>
                                         <img className="buynow-img" src="/img/Paquera Espadin Grande_transparente_low_res.png" alt=""/>
@@ -84,7 +84,7 @@ class Buynow extends Component {
                                     <div id='product-component-1609291123889' style={{margin: 'auto', marginTop: '-30px'}}></div>
                                 </div>
                             </div>
-                            <div className="col-xl-4 col-md-6 col-6">
+                            <div className="col-xl-4 col-md-6 col-6 mt-20">
                                 <div className="buynow-img-div">
                                     <div>
                                         <img className="buynow-img" src="/img/Paquera Espadin y Barril Grande_transparente_low_res.png" alt=""/>
@@ -139,7 +139,7 @@ class Buynow extends Component {
                                     <div id='product-component-1609291052376' style={{margin: 'auto', marginTop: '-30px'}}></div>
                                 </div>
                             </div>
-                            <div className="col-xl-4 col-md-6 col-6">
+                            <div className="col-xl-4 col-md-6 col-6 mt-20">
                                 <div className="buynow-img-div">
                                     <div>
                                         <img className="buynow-img-small" src="/img/paquera mini espadin_transparente copy.png" alt=""/>
@@ -192,7 +192,7 @@ class Buynow extends Component {
                                     <div id='product-component-1609291155567' style={{margin: 'auto', marginTop: '-30px'}}></div>
                                 </div>
                             </div>
-                            <div className="col-xl-4 col-md-6 col-6">
+                            <div className="col-xl-4 col-md-6 col-6 mt-20">
                                 <div className="buynow-img-div">
                                     <div>
                                         <img className="buynow-img" src="/img/Paquerra Barril Grande_transparente_low_res.png" alt=""/>
@@ -246,7 +246,7 @@ class Buynow extends Component {
                                     <div id='product-component-1609179340690' style={{margin: 'auto', marginTop: '-30px'}}></div>
                                 </div>
                             </div>
-                            <div className="col-xl-4 col-md-6 col-6">
+                            <div className="col-xl-4 col-md-6 col-6 mt-20">
                                 <div className="buynow-img-div">
                                     <div>
                                         <img className="buynow-img-small" src="/img/pequeña1_Barril.png" alt=""/>
@@ -300,7 +300,7 @@ class Buynow extends Component {
                                     <div id='product-component-1609291018502' style={{margin: 'auto', marginTop: '-30px'}}></div>
                                 </div>
                             </div>
-                            <div className="col-xl-4 col-md-6 col-6">
+                            <div className="col-xl-4 col-md-6 col-6 mt-20">
                                 <div className="buynow-img-div">
                                     <div>
                                         <img className="buynow-img-small" src="/img/pequeña2_transparente.png" alt=""/>
