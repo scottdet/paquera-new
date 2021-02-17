@@ -68,7 +68,7 @@ class FooterComponent extends Component {
                             <a className="social-icon" href="https://www.facebook.com/paqueramezcal"><Icon name="facebook f" size="huge" /></a>
                             <a className="social-icon" href="https://www.instagram.com/paqueramezcal/"><Icon name="instagram" size="huge" /></a>
                         </div>
-                        <h3>© PAQUERA MEZCAL 2020</h3>
+                        <h3>© PAQUERA MEZCAL 2021</h3>
                     </div>
                 </section>
                 <section className="footer-mobile">
