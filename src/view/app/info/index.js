@@ -24,7 +24,7 @@ class Info extends Component {
                                 CO-OP Grown & Produced<br /><br />
                                 Available in 3 different expressions: 100% Espadin, 80% Espadin/20% Barril & 100% Barril.<br /><br />
                                 750ml and 200ml bottles available in each expression. <br /><br /></abbr>
-                            Serve neat in a copita or made in cocktail form, Paquera doesn't overwhelm you with smoke but eases you into its smoothness. It can be regarded as “the most approachable premium mezcal in the market”. Balanced and full from the start and finishes buttery. It's to be enjoyed in social settings, either celebratory or with the people you love. <br /><br />
+                            Serve neat in a copita or made in cocktail form, Paquera doesn't overwhelm you with smoke but eases you into its smoothness. Balanced and full from the start and finishes buttery. It's to be enjoyed in social settings, either celebratory or with the people you love. <br /><br />
                             <abbr className="f-jeff">El Espíritu del Mezcal!</abbr>
                         </p>
                     </div>
