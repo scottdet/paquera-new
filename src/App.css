@@ -1285,7 +1285,26 @@ html {
 .col-xl-4 {
   margin-bottom: 20px;
 }
-
+.col-md-6 {
+  margin-bottom: 20px;
+}
+.col-6 {
+  margin-bottom: 20px;
+}
+.buynow-img {
+  width: 25%;
+  text-align: center;
+}
+.buynow-img:hover {
+  transform: scale(1.05);
+}
+.buynow-img-small {
+  width: 55%;
+  text-align: center;
+}
+.buynow-img-small:hover {
+  transform: scale(1.05);
+}
 .buynow-img-div {
   position: relative;
   width: 100%;
