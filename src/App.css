@@ -1346,20 +1346,6 @@ html {
 .text-underline {
   text-decoration: underline;
 }
-@media (max-width: 1440px) {
-  .buynow-img-div {
-    height: 450px;
-  }
-  .buynow-img-div div {
-    height: 300px;
-  }
-  .buynow-img-div h1 {
-    font-size: 18px;
-  }
-  .buynow-img-div h2 {
-    font-size: 20px;
-  }
-}
 @media (max-width: 1280px) {
   .buynow-img-div {
     height: 500px;
