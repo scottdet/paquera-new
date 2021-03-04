@@ -15,7 +15,7 @@ class HeaderComponent extends Component {
         if(url[3] === 'home' || url[3] === '') {
             header.style.display = "flex";
             for (var i = 0; i < headerItems.length; i++) {
-                headerItems[i].style.color = "#e1e0d8";
+                headerItems[i].style.color = "#3b49ae";
             }
         } else if(url[3] === 'stocklist') {
             var secondHeaderItems = document.getElementsByClassName("header")[1].getElementsByTagName("a");
