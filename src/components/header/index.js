@@ -12,12 +12,12 @@ class HeaderComponent extends Component {
         var url = (window.location.href).split(/[/]/);
         var header = document.getElementsByClassName("header")[0];
         var headerItems = document.getElementsByClassName("header")[0].getElementsByTagName("a");
-        if(url[3] === 'home' || url[3] === '') {
+        if (url[3] === 'home' || url[3] === '') {
             header.style.display = "flex";
             for (var i = 0; i < headerItems.length; i++) {
                 headerItems[i].style.color = "#3b49ae";
             }
-        } else if(url[3] === 'stocklist') {
+        } else if (url[3] === 'stocklist') {
             var secondHeaderItems = document.getElementsByClassName("header")[1].getElementsByTagName("a");
             header.style.display = "none";
             for (i = 0; i < secondHeaderItems.length; i++) {
@@ -38,7 +38,7 @@ class HeaderComponent extends Component {
                 headerItems[i].style.color = "#e1e0d8";
             }
             header.style.display = "flex";
-        } else if(menu === 'stocklist') {
+        } else if (menu === 'stocklist') {
             header.style.display = "none";
             if (document.getElementsByClassName("header")[1]) {
                 var secondHeaderItems = document.getElementsByClassName("header")[1].getElementsByTagName("a");
