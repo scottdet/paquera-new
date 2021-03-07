@@ -4,9 +4,9 @@ import { NavLink } from 'react-router-dom'
 import 'semantic-ui-css/semantic.min.css'
 import MailchimpSubscribe from 'react-mailchimp-subscribe'
 
-const CustomForm = ({status, message, onValidated }) => {
+const CustomForm = ({ status, message, onValidated }) => {
     const [email, setEamil] = useState('');
-    const submit = () => 
+    const submit = () =>
         email &&
         email.indexOf("@") > -1 &&
         onValidated({
@@ -14,19 +14,19 @@ const CustomForm = ({status, message, onValidated }) => {
         });
     return (
         <>
-            {status === 'sending' && <div style={{color: "#e1e0d8", fontFamily: 'Jeff'}}>sending...</div>}
+            {status === 'sending' && <div style={{ color: "#e1e0d8", fontFamily: 'Jeff' }}>sending...</div>}
             {status === 'error' && (
-                <div style={{color: '#e1e0d8', fontFamily: 'Jeff'}} 
-                dangerouslySetInnerHTML={{ __html: message }}></div>
-            )} 
-            {status === "success" && (
-              <div
-                style={{color: "#e1e0d8", fontFamily: 'Jeff'}}
-                dangerouslySetInnerHTML={{ __html: message }}
-              />
+                <div style={{ color: '#e1e0d8', fontFamily: 'Jeff' }}
+                    dangerouslySetInnerHTML={{ __html: message }}></div>
             )}
-            <Input type="email" onChange={e=>setEamil(e.target.value)} placeholder="EMAIL ADDRESS" />
-            <a onClick={submit}><button style={{cursor: 'pointer', top: '2px', position: 'relative'}}>SUBMIT</button></a>
+            {status === "success" && (
+                <div
+                    style={{ color: "#e1e0d8", fontFamily: 'Jeff' }}
+                    dangerouslySetInnerHTML={{ __html: message }}
+                />
+            )}
+            <Input type="email" onChange={e => setEamil(e.target.value)} placeholder="EMAIL ADDRESS" />
+            <a onClick={submit}><button style={{ cursor: 'pointer', top: '2px', position: 'relative' }}>SUBMIT</button></a>
         </>
     )
 }
@@ -40,7 +40,7 @@ class FooterComponent extends Component {
                     <div className="subscribe">
                         <MailchimpSubscribe
                             url={url}
-                            render={({ subscribe, status, message}) => (
+                            render={({ subscribe, status, message }) => (
                                 <div>
                                     <CustomForm
                                         status={status}
@@ -57,9 +57,9 @@ class FooterComponent extends Component {
                         </p> */}
                         {/* <div id='product-component-1605295802728'></div> */}
                     </div>
-                    <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', height: '65px'}}>
+                    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '65px' }}>
                         <a href='/buynow'>
-                          <button style={{cursor: 'pointer', paddingLeft: '30px', paddingRight: '30px', marginLeft: '-15px'}}>Buy Now</button>
+                            <button style={{ cursor: 'pointer', paddingLeft: '30px', paddingRight: '30px', marginLeft: '-15px' }}>Buy Now</button>
                         </a>
                     </div>
                     <div className="right-footer f-right">
@@ -77,8 +77,8 @@ class FooterComponent extends Component {
                         <div id='product-component-1605295802728'></div>
                         <div id='product-component-1605295847555'></div>
                     </div> */}
-                    <div className="social-icons" style={{paddingTop: '15px'}}>
-                        <a href="/buynow"><button style={{cursor: 'pointer', paddingLeft: '30px', paddingRight: '30px', marginRight: '50px'}}>Buy Now</button></a>
+                    <div className="social-icons" style={{ paddingTop: '15px' }}>
+                        <a href="/buynow"><button style={{ cursor: 'pointer', paddingLeft: '30px', paddingRight: '30px', marginRight: '50px' }}>Buy Now</button></a>
                         {/* <Icon name="twitter" size="huge" /> */}
                         <a className="social-icon" href="https://www.facebook.com/paqueramezcal"><Icon name="facebook f" size="huge" /></a>
                         <a className="social-icon" href="https://www.instagram.com/paqueramezcal/"><Icon name="instagram" size="huge" /></a>
