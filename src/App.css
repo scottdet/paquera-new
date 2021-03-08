@@ -3,34 +3,43 @@ body {
   height: 100%;
   min-height: -webkit-fill-available;
 }
+
 html {
   height: -webkit-fill-available;
 }
+
 #id {
   height: 100%;
 }
+
 @font-face {
   font-family: 'HiH';
   src: url('./assets/fonts/HiH-ReginaCursiv.ttf');
 }
+
 @font-face {
   font-family: 'Jeff';
   src: url('./assets/fonts/JeffLevine-UnpretentiousJNL.otf');
 }
+
 .ui.container {
   width: 1500px !important;
   z-index: 0;
 }
+
 .full-size {
   min-height: 100% !important;
   border: 15px solid #3b49ae !important;
 }
+
 .full-content {
   min-height: 100vh !important;
 }
+
 .none-border {
   border: 0px solid #3b49ae !important;
 }
+
 .home-screen-background {
   background: url('./assets/img/PAQUERA_WebLanding_Desktop.jpg');
   background-size: cover;
@@ -39,18 +48,21 @@ html {
   min-height: calc(100vh + 5px);
   margin-top: -200px;
 }
+
 .flex-display {
   position: relative;
   width: 100%;
   min-height: calc(100vh - 30px);
   display: flex;
 }
+
 .storySection {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .infoSection {
   position: relative;
   display: flex;
@@ -59,38 +71,49 @@ html {
   margin-top: 50px;
   margin-bottom: 30px;
 }
+
 .width-15 {
   width: 15% !important;
 }
+
 .width-20 {
   width: 20% !important;
 }
+
 .width-25 {
   width: 25% !important;
 }
+
 .width-50 {
   width: 50% !important;
 }
+
 .width-60 {
   width: 60% !important;
 }
+
 .width-70 {
   width: 70% !important;
 }
+
 .width-100 {
   width: 100% !important;
 }
+
 .width-900 {
   width: 900px !important;
 }
+
 .storySection .storyDiv {
   display: flex;
   width: 900px !important;
 }
+
 .infoSection .infoDiv {
   display: flex;
   width: 1240px !important;
 }
+
 .storyContentDiv, .infoContentDiv {
   position: absolute;
   background: #e1e0d8;
@@ -103,6 +126,7 @@ html {
   justify-content: center;
   align-items: center;
 }
+
 .infoDiv .width-25 {
   width: 25% !important;
   height: 730px;
@@ -111,9 +135,11 @@ html {
   align-items: center;
   flex-direction: column;
 }
+
 .infoDiv .width-25 .width-100 {
   width: 60% !important;
 }
+
 .infoContentDiv {
   margin-left: 10.5%;
   width: 79.5%;
@@ -122,6 +148,7 @@ html {
   border: 3px solid #3b49ae;
   text-align: left !important;
 }
+
 .storyContentDiv p, .infoContentDiv p {
   padding: 20px;
   font-family: 'HiH';
@@ -129,38 +156,46 @@ html {
   color: #3b49ae;
   text-align: center;
 }
+
 .full-image {
   width: 100%;
   max-width: 100px;
 }
+
 .full-image-min-200 {
   width: 100%;
   max-width: 200px;
 }
+
 .flex-space-end-between {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
 }
+
 .flex-space-around {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   width: 100%;
 }
+
 .mt-20 {
   margin-top: 20px !important;
 }
+
 .mb-20 {
   margin-bottom: 20px !important;
 }
+
 .cookie-dialog-section {
   position: relative;
   width: 90%;
   max-width: 550px;
   min-width: 400px;
 }
+
 .cookie-alert-div {
   width: 63%;
   height: 62%;
@@ -175,6 +210,7 @@ html {
   flex-direction: column;
   align-items: center;
 }
+
 .cookie-alert-div .title h1 {
   margin-top: 0px;
   text-align: center;
@@ -185,12 +221,14 @@ html {
   color: #3b49ae;
   padding-bottom: 0px;
 }
+
 .cookie-alert-div p {
   font-family: 'HiH';
   text-align: center;
   font-size: 16px;
   color: #3b49ae;
 }
+
 .cookie-alert-div button {
   padding: 12px;
   background: #3b49ae;
@@ -202,9 +240,11 @@ html {
   cursor: pointer;
   width: 80px;
 }
+
 .m-0 {
   margin: 0px !important;
 }
+
 .header {
   display: flex;
   justify-content: center;
@@ -213,6 +253,7 @@ html {
   margin-left: 15px !important;
   z-index: 2;
 }
+
 .header a {
   font-family: HiH;
   font-size: 32px;
@@ -222,22 +263,28 @@ html {
   z-index: 100;
   transition: 0.2s ease-in;
 }
+
 .header a:hover {
   color: #dc9541 !important;
   transition: 0.2s ease-in;
 }
+
 .header .active {
   color: #dc9541 !important;
 }
+
 .header img {
   width: 100px;
 }
+
 .pl-20 {
   padding-left: 20px !important;
 }
+
 .pr-20 {
   padding-right: 20px !important;
 }
+
 .footer-desktop {
   display: flex;
   justify-content: space-between;
@@ -247,6 +294,7 @@ html {
   color: #e1e0d8;
   position: relative;
 }
+
 .footer-desktop .subscribe {
   float: left;
   display: flex;
@@ -256,6 +304,7 @@ html {
   padding-left: 50px;
   z-index: 2;
 }
+
 .footer-desktop .ui.input>input {
   font-family: Jeff;
   color: #e1e0d8;
@@ -265,12 +314,14 @@ html {
   padding: 5px;
   min-width: 300px;
 }
+
 .footer-desktop .ui.input>input::placeholder {
   color: #e1e0d8;
   text-align: center;
   letter-spacing: 2px;
   font-weight: lighter !important;
 }
+
 .footer-desktop button {
   background: #e1e0d8 !important;
   padding: 5px;
@@ -282,10 +333,12 @@ html {
   color: #3b49ae !important;
   transition: 0.2s ease-in;
 }
+
 .footer-desktop a button:hover {
   color: #dc9541 !important;
   transition: 0.2s ease-in;
 }
+
 .footer-desktop p {
   width: 300px;
   font-family: 'HiH';
@@ -294,16 +347,19 @@ html {
   line-height: 18px;
   font-weight: 100;
 }
+
 .f-right {
   float: right;
 }
-.footer-desktop .f-right {  
+
+.footer-desktop .f-right {
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100%;
   margin-right: 50px;
 }
+
 .footer-desktop h3 {
   font-family: 'Jeff';
   font-weight: 100;
@@ -312,9 +368,11 @@ html {
   word-spacing: 3px;
   margin-top: 0;
 }
+
 .footer-mobile {
   display: none;
 }
+
 .mainContent {
   position: relative;
   display: flex !important;
@@ -325,6 +383,7 @@ html {
   margin-top: 0px;
   z-index: -1;
 }
+
 .stock-content {
   position: relative;
   display: flex !important;
@@ -337,41 +396,50 @@ html {
   margin-top: -50px;
   z-index: -1;
 }
+
 .mainContent .width-70 {
   text-align: center;
 }
+
 .home-image {
   text-align: center;
   width: 80%;
   max-width: 700px;
 }
+
 .home-image-2 {
   display: none;
 }
+
 .width-15 .home-image {
   max-width: 180px;
   width: 100%;
   position: relative;
 }
+
 .right-footer {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .social-icons {
   display: flex;
   justify-content: center;
   margin-top: 0px;
   margin-right: 20px;
 }
+
 .social-icons .social-icon {
   color: #e1e0d8;
   transition: 0.2s ease-in;
 }
+
 .social-icons .social-icon:hover {
   color: #dc9541 !important;
   transition: 0.2s ease-in;
 }
+
 .social-icons i {
   border: 3px solid;
   width: 40px;
@@ -382,6 +450,7 @@ html {
   margin-left: 10px;
   margin-right: 10px;
 }
+
 .stockSection {
   margin-top: 80px;
   width: 80%;
@@ -392,6 +461,7 @@ html {
   /* border-top: 3px solid #3b49ae;
   border-bottom: 3px solid #3b49ae; */
 }
+
 .stockSection section {
   width: 100%;
   padding-left: 15px;
@@ -402,6 +472,7 @@ html {
   /* border-top: 3px solid #3b49ae;
   border-bottom: 3px solid #3b49ae; */
 }
+
 .stockSection h2 {
   font-family: Jeff !important;
   font-size: 24px;
@@ -425,6 +496,7 @@ html {
   height: auto;
   flex-direction: column;
 }
+
 @media only screen and (max-width: 1320px) {
   .home-screen-background {
     margin-top: -150px !important;
@@ -592,7 +664,7 @@ html {
     height: 73%;
     text-align: left !important;
   }
-  .storyContentDiv,.infoContentDiv {
+  .storyContentDiv, .infoContentDiv {
     border: 3px solid #3b49ae;
   }
   .storyContentDiv p {
@@ -616,7 +688,6 @@ html {
   .header a {
     font-size: 33px;
   }
-  
   .cookie-dialog-section .width-50 {
     width: 35% !important;
   }
@@ -637,6 +708,7 @@ html {
     left: 24%;
   }
 }
+
 @media only screen and (max-width: 1024px) {
   .height-webkit-fill-available {
     flex: none;
@@ -698,16 +770,16 @@ html {
     width: 880px !important;
   }
 }
+
 @media only screen and (max-width: 900px) {
   .home-screen-background {
-    margin-top: -150px !important;    
+    margin-top: -150px !important;
     min-height: calc(100vh - 37px);
   }
   .stockSection {
     width: 100%;
     margin-bottom: 0px;
   }
-  
   .infoSection .infoDiv {
     display: flex;
     width: 800px !important;
@@ -750,6 +822,7 @@ html {
     margin-bottom: 15px;
   }
 }
+
 @media only screen and (max-width: 767px) {
   .home-screen-background {
     margin-top: -150px !important;
@@ -795,7 +868,6 @@ html {
   .width-70 {
     width: 70% !important;
   }
-  
   .header a {
     font-family: HiH;
     font-size: 18px;
@@ -889,6 +961,7 @@ html {
     align-items: center;
   }
 }
+
 @media only screen and (max-width: 600px) {
   .home-screen-background {
     background-image: url('./assets/img/image0.jpg');
@@ -1005,7 +1078,7 @@ html {
     min-height: 0px !important;
     margin-bottom: 30px;
     z-index: -1;
-  } 
+  }
   .full-size {
     min-height: -webkit-fill-available !important;
     border: 8px solid #3b49ae !important;
@@ -1058,6 +1131,7 @@ html {
     width: 90%;
   }
 }
+
 @media only screen and (max-width: 400px) {
   .header a {
     font-size: 15px;
@@ -1098,12 +1172,15 @@ html {
     margin-top: 0px;
   }
 }
+
 .f-bold {
   font-weight: bold;
 }
+
 .storyContentDiv .f-bold, .infoContentDiv .f-bold {
   font-family: Jeff;
 }
+
 .fade-in {
   animation: fadeIn ease 2s;
   -webkit-animation: fadeIn ease 2s;
@@ -1112,63 +1189,65 @@ html {
   -ms-animation: fadeIn ease 2s;
 }
 
-@keyframes fadeIn{
+@keyframes fadeIn {
   0% {
-    opacity:0;
+    opacity: 0;
   }
   100% {
-    opacity:1;
+    opacity: 1;
   }
 }
 
 @-moz-keyframes fadeIn {
   0% {
-    opacity:0;
+    opacity: 0;
   }
   100% {
-    opacity:1;
+    opacity: 1;
   }
 }
 
 @-webkit-keyframes fadeIn {
   0% {
-    opacity:0;
+    opacity: 0;
   }
   100% {
-    opacity:1;
+    opacity: 1;
   }
 }
 
 @-o-keyframes fadeIn {
   0% {
-    opacity:0;
+    opacity: 0;
   }
   100% {
-    opacity:1;
+    opacity: 1;
   }
 }
 
 @-ms-keyframes fadeIn {
   0% {
-    opacity:0;
+    opacity: 0;
   }
   100% {
-    opacity:1;
+    opacity: 1;
   }
 }
 
 #stockist-widget .stockist-horizontal .stockist-side-panel {
   top: 20px !important;
 }
+
 .f-jeff {
   font-family: 'Jeff';
 }
+
 .mb-30 {
   margin-bottom: 30px !important;
 }
 
-
 /* Age Cookie*/
+
 .age-text {
   word-spacing: 5px !important;
   padding-bottom: 15px;
@@ -1209,14 +1288,14 @@ html {
     margin-right: 15px !important;
   }
   .age-text2 {
-      padding-left: 30px !important;
-      padding-right: 30px !important;
-      font-size: 14px !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    font-size: 14px !important;
   }
   .age-logo {
-      width: 240px;
-      margin-top: -30px !important;
-      padding-top: 0px !important;
+    width: 240px;
+    margin-top: -30px !important;
+    padding-top: 0px !important;
   }
 }
 
@@ -1226,6 +1305,7 @@ html {
   padding-bottom: 0px !important;
   margin-bottom: -30px !important;
 }
+
 .age-container {
   background-image: url('./assets/img/PAQUERAdesktop.jpg');
   position: fixed;
@@ -1233,7 +1313,7 @@ html {
   background-size: cover;
   z-index: 2 !important;
   width: calc(100vw - 60px);
-  height: calc(100vh - 60px); 
+  height: calc(100vh - 60px);
   margin-left: 30px;
   margin-top: 30px;
   overflow: hidden;
@@ -1248,6 +1328,7 @@ html {
   margin: auto;
   margin-top: 25vh !important;
 }
+
 @media (max-width: 599px) {
   .age-container {
     margin: 0px !important;
@@ -1255,56 +1336,68 @@ html {
     background-position: center;
     background-size: cover;
     width: calc(100vw);
-    height: calc(100vh); 
+    height: calc(100vh);
   }
   .age-inner-container {
-      width: 90vw !important;
+    width: 90vw !important;
   }
 }
+
 .flex-space-evenly {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
 }
+
 .flex-center {
-    display: flex;
-    justify-content: center;
-    margin-top: 30px !important;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px !important;
 }
 
 .shopify-buy-frame--product {
   max-width: 180px !important;
   height: 80px !important;
 }
+
 .shopify-buy__btn {
   background: black !important;
 }
+
 .row {
   margin: 0px;
 }
+
 .col-xl-4 {
   margin-bottom: 20px;
 }
+
 .col-md-6 {
   margin-bottom: 20px;
 }
+
 .col-6 {
   margin-bottom: 20px;
 }
+
 .buynow-img {
   width: 25%;
   text-align: center;
 }
+
 .buynow-img:hover {
   transform: scale(1.05);
 }
+
 .buynow-img-small {
   width: 55%;
   text-align: center;
 }
+
 .buynow-img-small:hover {
   transform: scale(1.05);
 }
+
 .buynow-img-div {
   position: relative;
   width: 100%;
@@ -1316,12 +1409,14 @@ html {
   height: 500px;
   text-align: center;
 }
+
 .buynow-img-div div {
   height: 320px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .buynow-img-div h1 {
   font-family: 'Jeff';
   font-weight: lighter;
@@ -1329,23 +1424,28 @@ html {
   margin-top: 10px;
   margin-bottom: 0px;
 }
+
 .buynow-img-div h2 {
   font-family: 'Jeff';
   font-size: 19px;
   margin-top: 5px;
   color: #dc9541;
 }
+
 .infoIcon {
   top: -10px;
   position: relative;
   cursor: pointer;
 }
+
 .modal p {
   font-size: 18px;
 }
+
 .text-underline {
   text-decoration: underline;
 }
+
 @media (max-width: 1440px) {
   .buynow-img-div {
     height: 450px;
@@ -1360,6 +1460,7 @@ html {
     font-size: 20px;
   }
 }
+
 @media (max-width: 1280px) {
   .buynow-img-div {
     height: 500px;
@@ -1374,6 +1475,7 @@ html {
     font-size: 20px;
   }
 }
+
 @media (max-width: 1240px) {
   .buynow-img-div {
     height: 450px;
@@ -1388,6 +1490,7 @@ html {
     font-size: 20px;
   }
 }
+
 @media (max-width: 1200px) {
   .buynow-img-div {
     height: 500px;
@@ -1402,6 +1505,7 @@ html {
     font-size: 20px;
   }
 }
+
 @media (max-width: 1096px) {
   .buynow-img-div {
     height: 500px;
@@ -1418,6 +1522,7 @@ html {
     font-size: 20px;
   }
 }
+
 @media (max-width: 967px) {
   .buynow-img-div {
     height: 470px;
@@ -1434,6 +1539,7 @@ html {
     font-size: 20px;
   }
 }
+
 @media (max-width: 768px) {
   .buynow-img-div {
     height: 400px;
@@ -1450,6 +1556,7 @@ html {
     font-size: 20px;
   }
 }
+
 @media (max-width: 676px) {
   .buynow-img-div {
     height: 400px;
@@ -1466,6 +1573,7 @@ html {
     font-size: 20px;
   }
 }
+
 @media (max-width: 599px) {
   .buynow-img {
     width: 36%;
@@ -1498,6 +1606,7 @@ html {
     font-size: 15px;
   }
 }
+
 @media (max-width: 500px) {
   .buynow-img-div {
     height: 270px;
@@ -1506,6 +1615,7 @@ html {
     height: 150px;
   }
 }
+
 .modal {
   top: auto !important;
   left: auto !important;
@@ -1513,15 +1623,19 @@ html {
   bottom: auto !important;
   margin-bottom: 50px !important;
 }
+
 .ui.modal>.header {
   margin-left: 0px !important;
 }
+
 .f-Jeff {
   font-family: 'Jeff';
 }
+
 .f-bold {
   font-weight: bold;
 }
+
 .f-HiH {
   font-family: 'HiH';
 }
