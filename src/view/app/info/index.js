@@ -12,11 +12,11 @@ class Info extends Component {
         return (
             <>
                 <Container className="mainContent pl-20 pr-20 mb-30 fade-in">
-                    <div className="width-15" style={{textAlign: 'center', paddingLeft: '10px'}}>
+                    <div className="width-15" style={{ textAlign: 'center', paddingLeft: '10px' }}>
                         <img className="home-image" src="/img/PaqueraMezcal_Landing_LeftArt.png" alt="" />
                         <img className="home-image-2" src="/img/Paquera_AgaveTree_Left-01.png" alt="" />
                     </div>
-                    <div className="width-70" style={{display: 'flex', justifyContent: 'center', marginTop: '15px'}}>
+                    <div className="width-70" style={{ display: 'flex', justifyContent: 'center', marginTop: '15px' }}>
                         <p className="infoContent">
                             <abbr className="f-jeff">Produced</abbr> by a CO-OP in San Miguel Ejutla, Paquera is an award-winning mezcal that was created from a methodology perfected over generations of dedicated family artisans.<br /><br />
                             <abbr className="f-jeff">Certified Artisanal Mezcal / Gluten Free <br />
@@ -28,7 +28,7 @@ class Info extends Component {
                             <abbr className="f-jeff">El Espíritu del Mezcal!</abbr>
                         </p>
                     </div>
-                    <div className="width-15" style={{textAlign: 'center', paddingRight: '10px'}}>
+                    <div className="width-15" style={{ textAlign: 'center', paddingRight: '10px' }}>
                         <img className="home-image" src="/img/PaqueraMezcal_Landing_RightArt.png" alt="" />
                         <img className="home-image-2" src="/img/Paquera_AgaveTree_Right-01.png" alt="" />
                     </div>
@@ -57,7 +57,7 @@ class Info extends Component {
                             </div>
                         </div>
                     </section> */}
-                    
+
                 </Container>
                 <FooterComponent />
             </>
