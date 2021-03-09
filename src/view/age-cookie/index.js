@@ -15,7 +15,7 @@ class AgeAllowance extends Component {
     render() {
         return (
             <Container className="full-size m-0 fade-in height-webkit-fill-available">
-                <section className="flex-display" style={{flex: '1'}}>
+                <section className="flex-display" style={{ flex: '1' }}>
                     <div className="flex-space-end-between width-15">
                         <img className="full-image" src="/img/PaqueraMezcal_Entry_Ornament1.png" alt="" />
                         <img className="full-image" src="/img/PaqueraMezcal_Entry_Ornament2.png" alt="" />
