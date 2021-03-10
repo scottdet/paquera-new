@@ -14,13 +14,13 @@ class StockList extends Component {
         return (
             <section className="full-content m-0">
                 <HeaderComponent />
-                <Container className="stock-content pl-20 pr-20 fade-in" style={{flex: 'none'}}>
+                <Container className="stock-content pl-20 pr-20 fade-in" style={{ flex: 'none' }}>
                     <section className="stockSection">
                         <StockListComponent />
                     </section>
                 </Container>
                 <FooterComponent />
-            </section>            
+            </section>
         )
     }
 }
