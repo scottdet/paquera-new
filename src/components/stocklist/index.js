@@ -13,7 +13,7 @@ class StockListComponent extends Component {
     }
     render() {
         return (
-            <section style={{display: 'block', position: 'relative'}}>
+            <section style={{ display: 'block', position: 'relative' }}>
                 {/* <h2>Find Our Stores</h2> */}
                 <div data-stockist-widget-tag="u7318"></div>
             </section>
