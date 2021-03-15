@@ -9,7 +9,7 @@ class Story extends Component {
         ReactGA.pageview('/story');
     }
     render() {
-        return(
+        return (
             <>
                 <Container className="mainContent mb-30 pl-20 pr-20 fade-in">
                     <section className="storySection">
@@ -24,7 +24,7 @@ class Story extends Component {
                                 <img className="width-100" src="/img/PaqueraMezcal_Story_BottomRight3.png" alt="" />
                             </div>
                             <div className="storyContentDiv">
-                                <p><abbr className="f-bold">PAQUERA</abbr> is meant to be appreciated and savored, we recommend sipping paquera slowly as to experience its quality. Created from a methodology perfected over generations of dedicated family artisans, our love for Mezcal has only deepened upon being exposed to its unique production process and rich culture. <br/><br/> Paquera's mission is to contribute resources to the Union de Productores Agropecuarios del Distrito de Ejutla de Crespo(UPADEC), which is a coalition of palenques that work together to sustain and grow their micro-enterprises.</p>
+                                <p><abbr className="f-bold">PAQUERA</abbr> is meant to be appreciated and savored, we recommend sipping paquera slowly as to experience its quality. Created from a methodology perfected over generations of dedicated family artisans, our love for Mezcal has only deepened upon being exposed to its unique production process and rich culture. <br /><br /> Paquera's mission is to contribute resources to the Union de Productores Agropecuarios del Distrito de Ejutla de Crespo(UPADEC), which is a coalition of palenques that work together to sustain and grow their micro-enterprises.</p>
                             </div>
                         </div>
                     </section>
