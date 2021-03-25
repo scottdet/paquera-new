@@ -8,6 +8,7 @@ import Main from './view/app'
 import AgeCookieComponent from './view/age-cookie'
 
 class App extends Component {
+  
   render() {
     const cookie = cookies.get('verification');
     if (cookie === 'yes') {
