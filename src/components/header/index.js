@@ -61,7 +61,7 @@ class HeaderComponent extends Component {
                     <abbr onClick={() => this.handleClick('info')}>Info</abbr>
                 </NavLink>
                 <NavLink to={"/story"} className={this.state.menuActive === 'story' ? 'active' : ''}>
-                    <abbr onClick={() => this.handleClick('story')}>Our Story</abbr>
+                    <abbr onClick={() => this.handleClick('story')}>About Us</abbr>
                 </NavLink>
                 <NavLink to={"/home"}>
                     <abbr onClick={() => this.handleClick('home')}>
