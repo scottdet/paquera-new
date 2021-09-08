@@ -185,6 +185,10 @@ html {
   margin-top: 20px !important;
 }
 
+.mt-80 {
+  margin-top: 60px !important;
+}
+
 .mb-20 {
   margin-bottom: 20px !important;
 }
@@ -323,6 +327,7 @@ html {
 }
 
 .footer-desktop button {
+  position: relative;
   background: #e1e0d8 !important;
   padding: 5px;
   font-size: 20px;
@@ -337,6 +342,12 @@ html {
 .footer-desktop a button:hover {
   color: #dc9541 !important;
   transition: 0.2s ease-in;
+}
+
+.footer-desktop button div {
+  position: absolute;
+  top: -2px;
+  left: 86px;
 }
 
 .footer-desktop p {
@@ -568,6 +579,7 @@ html {
     font-weight: lighter !important;
   }
   .footer-mobile button {
+    position: relative;
     background: #e1e0d8 !important;
     padding: 5px;
     font-size: 18px;
@@ -584,6 +596,11 @@ html {
   .footer-mobile button:hover {
     color: #dc9541 !important;
     transition: 0.2s ease-in;
+  }
+  .footer-mobile button div {
+    position: absolute;
+    top: -2px;
+    left: 80px;
   }
   .footer-mobile p {
     font-family: 'HiH';
@@ -1381,11 +1398,32 @@ html {
 }
 
 .buynow-img {
-  width: 25%;
+  width: 40%;
   text-align: center;
+  margin-top: -75px;
 }
 
 .buynow-img:hover {
+  transform: scale(1.05);
+}
+
+.buynow-img1 {
+  width: 33%;
+  text-align: center;
+  margin-top: -80px;
+}
+
+.buynow-img1:hover {
+  transform: scale(1.05);
+}
+
+.buynow-img2 {
+  width: 36%;
+  text-align: center;
+  margin-top: -85px;
+}
+
+.buynow-img2:hover {
   transform: scale(1.05);
 }
 
@@ -1576,9 +1614,23 @@ html {
 
 @media (max-width: 599px) {
   .buynow-img {
-    width: 36%;
+    width: 56%;
     text-align: center;
+    margin-top: -60px;
   }
+
+  .buynow-img1 {
+    width: 46% !important;
+    text-align: center;
+    margin-top: -75px !important;
+  }
+
+  .buynow-img2 {
+    width: 50% !important;
+    text-align: center;
+    margin-top: -75px !important;
+  }
+
   .buynow-img-small {
     width: 70%;
     text-align: center;
@@ -1638,4 +1690,8 @@ html {
 
 .f-HiH {
   font-family: 'HiH';
+}
+
+.shopify-buy__product-img-wrapper {
+  display: none !important;
 }
