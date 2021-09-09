@@ -29,12 +29,12 @@ class Buynow extends Component {
         return (
             <section className="full-content m-0">
                 <HeaderComponent />
-                <Container className="mainContent pl-20 pr-20 mb-30 fade-in" style={{ flex: 'none', marginTop: '70px' }}>
+                <Container className="mainContent pl-20 pr-20 mb-30 fade-in" style={{ flex: 'none', marginTop: '80px' }}>
                     <div className="row" style={{ marginTop: '20px' }}>
                         <div className="col-xl-4 col-md-6 col-6 mt-80">
                             <div className="buynow-img-div">
                                 <div>
-                                    <img className="buynow-img1" style={{ width: '30%', marginTop: '-80px' }} src="/img/Paquera Espadin Grande_transparente_low_res.png" alt="" />
+                                    <img className="buynow-img1" src="/img/Paquera Espadin Grande_transparente_low_res.png" alt="" />
                                 </div>
                                 <h1 style={{ paddingLeft: '10px', paddingRight: '10px' }}>
                                     Paquera Espadin Mezcal
@@ -83,7 +83,7 @@ class Buynow extends Component {
                         <div className="col-xl-4 col-md-6 col-6 mt-80">
                             <div className="buynow-img-div">
                                 <div>
-                                    <img className="buynow-img2" style={{ width: '33%', marginTop: '-85px' }} src="/img/Paquera Espadin y Barril Grande_transparente_low_res.png" alt="" />
+                                    <img className="buynow-img2" src="/img/Paquera Espadin y Barril Grande_transparente_low_res.png" alt="" />
                                 </div>
                                 <h1>
                                     Paquera 80% Espadin 20% Barril

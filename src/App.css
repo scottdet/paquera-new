@@ -186,7 +186,7 @@ html {
 }
 
 .mt-80 {
-  margin-top: 60px !important;
+  margin-top: 150px !important;
 }
 
 .mb-20 {
@@ -1398,9 +1398,9 @@ html {
 }
 
 .buynow-img {
-  width: 40%;
+  width: 50%;
   text-align: center;
-  margin-top: -75px;
+  margin-top: -170px;
 }
 
 .buynow-img:hover {
@@ -1408,9 +1408,9 @@ html {
 }
 
 .buynow-img1 {
-  width: 33%;
+  width: 40%;
   text-align: center;
-  margin-top: -80px;
+  margin-top: -170px;
 }
 
 .buynow-img1:hover {
@@ -1418,9 +1418,9 @@ html {
 }
 
 .buynow-img2 {
-  width: 36%;
+  width: 43.5%;
   text-align: center;
-  margin-top: -85px;
+  margin-top: -180px;
 }
 
 .buynow-img2:hover {
@@ -1530,6 +1530,24 @@ html {
 }
 
 @media (max-width: 1200px) {
+  .buynow-img {
+    width: 40%;
+    text-align: center;
+    margin-top: -115px;
+  }
+
+  .buynow-img1 {
+    width: 33% !important;
+    text-align: center;
+    margin-top: -130px !important;
+  }
+
+  .buynow-img2 {
+    width: 35% !important;
+    text-align: center;
+    margin-top: -135px !important;
+  }
+  
   .buynow-img-div {
     height: 500px;
   }
@@ -1614,21 +1632,21 @@ html {
 
 @media (max-width: 599px) {
   .buynow-img {
-    width: 56%;
+    width: 75%;
     text-align: center;
-    margin-top: -60px;
+    margin-top: -115px;
   }
 
   .buynow-img1 {
-    width: 46% !important;
+    width: 60% !important;
     text-align: center;
-    margin-top: -75px !important;
+    margin-top: -130px !important;
   }
 
   .buynow-img2 {
-    width: 50% !important;
+    width: 66% !important;
     text-align: center;
-    margin-top: -75px !important;
+    margin-top: -135px !important;
   }
 
   .buynow-img-small {
@@ -1656,6 +1674,11 @@ html {
   }
   .modal p {
     font-size: 15px;
+  }
+
+  .mt-80 {
+    margin-top: 60px !important;
+    margin-bottom: 105px;
   }
 }
 
