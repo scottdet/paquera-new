@@ -6,6 +6,7 @@ import './App.css';
 
 import Main from './view/app'
 import AgeCookieComponent from './view/age-cookie'
+import TermsAndCondition from './view/policy'
 
 class App extends Component {
   
@@ -28,6 +29,7 @@ class App extends Component {
           <Router>
             <Switch>
               <Route path="/age-cookie" component={AgeCookieComponent} />
+                <Route path={'/terms&condition'} component={TermsAndCondition} />
               <Redirect to="/age-cookie" />
             </Switch>
           </Router>

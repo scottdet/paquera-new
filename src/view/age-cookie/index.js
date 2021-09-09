@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { NavLink } from 'react-router-dom'
 import { Container } from 'semantic-ui-react'
 import { cookies } from '../../cookie'
 
@@ -37,7 +38,9 @@ class AgeAllowance extends Component {
                                     <button onClick={() => this.handleClick('Yes')}>YES</button>
                                     <button onClick={() => this.handleClick('No')}>NO</button>
                                 </div>
-                                <p>You must be of legal drinking age to enter this site. By entering you accept our terms and conditions and our privacy and cookie policy.<br />We encourage drinking responsibly.</p>
+                                <p>
+                                    You must be of legal drinking age to enter this site. By entering you accept our <NavLink to={"/terms&condition"}>terms and conditions</NavLink> and <NavLink to={"/terms&condition"}>our privacy</NavLink> and <NavLink to={"/terms&condition"}>cookie policy</NavLink>.<br />We encourage drinking responsibly.
+                                </p>
                             </div>
                         </section>
                         <img className="full-image-min-200 mb-20" src="/img/PaqueraMezcal_Entry_Ornament8.png" alt="" />

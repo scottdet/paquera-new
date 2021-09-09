@@ -22,6 +22,17 @@ html {
   src: url('./assets/fonts/JeffLevine-UnpretentiousJNL.otf');
 }
 
+@font-face {
+  font-family: 'Pitch-Regular';
+  src: url('./assets/fonts/Pitch-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Pitch-Bold';
+  src: url('./assets/fonts/Pitch-Bold.otf');
+}
+
+
 .ui.container {
   width: 1500px !important;
   z-index: 0;
@@ -243,6 +254,12 @@ html {
   font-weight: lighter;
   cursor: pointer;
   width: 80px;
+}
+
+.cookie-alert-div a {
+  font-weight: bold;
+  color: #3b49ae;
+  text-decoration: revert;
 }
 
 .m-0 {
@@ -1717,4 +1734,52 @@ html {
 
 .shopify-buy__product-img-wrapper {
   display: none !important;
+}
+
+.policySection {
+  max-width: 1200px;
+  min-height: calc(100vh - 190px);
+  padding: 20px;
+}
+
+.policySection div {
+  margin-bottom: 25px;
+}
+
+.policySection h1 {
+  font-family: 'Pitch-Bold';
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: -0.5px;
+  margin-bottom: 3px;
+}
+
+.policySection p, .policySection li {
+  font-family: 'Pitch-Regular';
+  font-size: 14px;
+  letter-spacing: -0.5px;
+}
+
+.policySection li {
+  margin-bottom: 15px;
+}
+
+.policySection p b, .policySection li b {
+  font-family: 'Pitch-Bold';
+  font-size: 15px;
+}
+
+@media (max-width: 599px) {
+  .policySection h1 {
+    font-size: 13px;
+  }
+
+  .policySection p, .policySection li {
+    font-size: 12px;
+  }
+
+  .policySection p b, .policySection li b {
+    font-family: 'Pitch-Bold';
+    font-size: 13px;
+  }
 }
